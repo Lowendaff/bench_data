@@ -341,15 +341,17 @@ update() {
               province: $pname,
               city: $cname,
               operator: norm_operator(.o // ""; .name // ""),
+              tier: ((.tier // 1) | tonumber? // 1),
               ip: $ip,
               port: $port
             } ]
         | group_by(.id)
         | map(
             (.[0]) as $first
-            | (map({operator, ip, port})
+            | (map({operator, tier, ip, port})
                | unique_by("\(.ip):\(.port)")
-               | sort_by([(.operator | op_rank), .ip, .port])
+               | sort_by([(.operator | op_rank), .tier, .ip, .port])
+               | map({operator, ip, port})
                | .[:32]) as $nodes
             | ({
                 id: $first.id,

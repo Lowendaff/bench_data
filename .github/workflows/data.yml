@@ -13,6 +13,7 @@ on:
     paths:
       - servers/iperf3-candidates.json
       - scripts/iperf3-servers.sh
+      - scripts/taier-collect.py
       - scripts/taier-servers.sh
       - scripts/netflix-ix.sh
       - scripts/list-rules.jq
@@ -62,23 +63,41 @@ jobs:
 
           update_one "iperf3" "servers/iperf3.json" "scripts/iperf3-servers.sh" \
             "https://export.iperf3serverlist.net/listed_iperf3_servers.json" 2097152
-          update_one "taier" "servers/taier.json" "scripts/taier-servers.sh" \
-            "https://raw.githubusercontent.com/transflo/speedtaier/main/serverlist_decrypted.json" \
-            2097152
+          if python3 scripts/taier-collect.py \
+            --pool servers/taier-pool.json \
+            --ipv6-out servers/taier-ipv6.json \
+            --export-out "$RUNNER_TEMP/taier-export.json" > "$RUNNER_TEMP/taier-collect.txt"; then
+            if scripts/taier-servers.sh update "$RUNNER_TEMP/taier-export.json" \
+              > "$RUNNER_TEMP/taier.txt"; then
+              scripts/taier-servers.sh check
+              {
+                echo "### taier (\`servers/taier.json\`)"
+                echo
+                sed 's/^/- /' "$RUNNER_TEMP/taier-collect.txt"
+                sed 's/^/- /' "$RUNNER_TEMP/taier.txt"
+                echo
+              } >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "::warning::taier-servers.sh rejected collected export"
+            fi
+          else
+            echo "::warning::taier-collect.py failed to collect upstream nodes"
+          fi
           update_one "netflix-ix" "servers/netflix-ix.json" "scripts/netflix-ix.sh" \
             "https://www.peeringdb.com/api/netixlan?net_id=457" 1048576
       - name: Commit and push updated lists
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- servers/iperf3.json servers/taier.json servers/netflix-ix.json; then
+          git add servers/iperf3.json servers/taier.json servers/taier-pool.json \
+            servers/taier-ipv6.json servers/netflix-ix.json
+          if git diff --cached --quiet; then
             echo "All generated lists are current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet -m "build: refresh generated server lists" \
-            -- servers/iperf3.json servers/taier.json servers/netflix-ix.json
+          git commit --quiet -m "build: refresh generated server lists"
           basic=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w 0)
           echo "::add-mask::$basic"
           GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \

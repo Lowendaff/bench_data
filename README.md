@@ -8,8 +8,11 @@ Companion data and static tool release repository for
 - `servers/` — Runtime node and exchange lists downloaded over HTTPS by `lowendaff-bench`:
   - `servers/iperf3-candidates.json` & `servers/iperf3.json` — Reviewed `network.iperf3` server
     candidates and the active list refreshed twice daily from `iperf3serverlist.net`.
-  - `servers/taier.json` — Normalized ASCII CAICT GlobalSpeed (`network.taier`) carrier nodes across
-    China, refreshed twice daily.
+  - `servers/taier.json`, `servers/taier-pool.json` & `servers/taier-ipv6.json` — Normalized ASCII
+    CAICT GlobalSpeed (`network.taier`) carrier nodes across China, collected directly from CAICT's
+    official directory (`ConfigMD5.php` + MD5-verified DES directory) merged with public feeds,
+    maintained in an incremental historical pool, and ranked twice daily by concurrent zero-traffic
+    `dovalid` liveness probing (`scripts/taier-collect.py`).
   - `servers/traceroute.json` — Curated `network.trace` targets across China and international
     routes.
   - `servers/netflix-ix.json` — Netflix internet exchange peering ports (`net_id=457` from
