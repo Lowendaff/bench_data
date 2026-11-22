@@ -1,0 +1,60 @@
+# Validates workflows, shell scripts, and every server/target list in servers/.
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions: {}
+
+jobs:
+  check:
+    name: workflow, script and list checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: taiki-e/install-action@cfdb7ed4ccc7c7dce37759eae89dc5674b469b39 # v2.90.3
+        with:
+          tool: zizmor@1.32.0,shellcheck@0.11.0
+      - name: Install actionlint
+        env:
+          VERSION: 1.7.12
+          SHA256: 8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8
+        run: |
+          releases=https://github.com/rhysd/actionlint/releases/download
+          curl --fail --silent --show-error --location --output "$RUNNER_TEMP/actionlint.tar.gz" \
+            "$releases/v$VERSION/actionlint_${VERSION}_linux_amd64.tar.gz"
+          echo "$SHA256  $RUNNER_TEMP/actionlint.tar.gz" | sha256sum --check --strict
+          mkdir "$RUNNER_TEMP/actionlint"
+          tar -xzf "$RUNNER_TEMP/actionlint.tar.gz" -C "$RUNNER_TEMP/actionlint" actionlint
+          echo "$RUNNER_TEMP/actionlint" >> "$GITHUB_PATH"
+      - name: Workflow audit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: zizmor --persona pedantic .
+      - name: Workflow lint
+        run: actionlint
+      - name: Shell scripts
+        run: git ls-files -z '*.sh' | xargs -0 shellcheck
+      - name: Server list cases
+        run: scripts/iperf3-servers-cases.sh
+      - name: Server list
+        run: scripts/iperf3-servers.sh check
+      - name: Target list cases
+        run: scripts/traceroute-targets-cases.sh
+      - name: Target list
+        run: scripts/traceroute-targets.sh check
+      - name: Exchange list cases
+        run: scripts/netflix-ix-cases.sh
+      - name: Exchange list
+        run: scripts/netflix-ix.sh check
+      - name: Taier list cases
+        run: scripts/taier-servers-cases.sh
+      - name: Taier list
+        run: scripts/taier-servers.sh check

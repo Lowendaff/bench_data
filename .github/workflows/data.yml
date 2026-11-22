@@ -1,0 +1,86 @@
+# Keeps the generated lists in servers/ current: iperf3 servers (servers/iperf3.json), China
+# carrier speed nodes (servers/taier.json), and Netflix IX peering ports (servers/netflix-ix.json).
+# Runs twice daily, manually, or when candidates/scripts change on main. Each source updates
+# independently so a temporary outage of one upstream feed does not block the others.
+name: data
+
+on:
+  schedule:
+    - cron: "41 3,15 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - servers/iperf3-candidates.json
+      - scripts/iperf3-servers.sh
+      - scripts/taier-servers.sh
+      - scripts/netflix-ix.sh
+      - scripts/list-rules.jq
+      - .github/workflows/data.yml
+
+permissions: {}
+
+jobs:
+  update:
+    name: update generated server lists
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write # commits refreshed server lists to main
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Update lists from upstream exports
+        run: |
+          update_one() {
+            local name=$1 file=$2 script=$3 url=$4 limit=$5
+            local src="$RUNNER_TEMP/$name.json"
+            local log="$RUNNER_TEMP/$name.txt"
+            if ! curl --fail --silent --show-error --location \
+              --proto '=https' --proto-redir '=https' \
+              --max-time 120 --retry 3 --max-filesize "$limit" \
+              --output "$src" "$url"; then
+              echo "::warning::failed to fetch upstream source for $name"
+              return 0
+            fi
+            if ! "$script" update "$src" > "$log"; then
+              echo "::warning::update check rejected upstream source for $name"
+              return 0
+            fi
+            "$script" check
+            {
+              echo "### $name (\`$file\`)"
+              echo
+              sed 's/^/- /' "$log"
+              echo
+            } >> "$GITHUB_STEP_SUMMARY"
+          }
+
+          update_one "iperf3" "servers/iperf3.json" "scripts/iperf3-servers.sh" \
+            "https://export.iperf3serverlist.net/listed_iperf3_servers.json" 2097152
+          update_one "taier" "servers/taier.json" "scripts/taier-servers.sh" \
+            "https://raw.githubusercontent.com/transflo/speedtaier/main/serverlist_decrypted.json" \
+            2097152
+          update_one "netflix-ix" "servers/netflix-ix.json" "scripts/netflix-ix.sh" \
+            "https://www.peeringdb.com/api/netixlan?net_id=457" 1048576
+      - name: Commit and push updated lists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- servers/iperf3.json servers/taier.json servers/netflix-ix.json; then
+            echo "All generated lists are current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet -m "build: refresh generated server lists" \
+            -- servers/iperf3.json servers/taier.json servers/netflix-ix.json
+          basic=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w 0)
+          echo "::add-mask::$basic"
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+            GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $basic" \
+            git push --quiet origin HEAD:refs/heads/main
