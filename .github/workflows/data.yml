@@ -21,6 +21,10 @@ on:
 
 permissions: {}
 
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
 jobs:
   update:
     name: update generated server lists
@@ -100,6 +104,11 @@ jobs:
           git commit --quiet -m "build: refresh generated server lists"
           basic=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w 0)
           echo "::add-mask::$basic"
-          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
-            GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $basic" \
-            git push --quiet origin HEAD:refs/heads/main
+          auth="AUTHORIZATION: basic $basic"
+          if ! GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+            GIT_CONFIG_VALUE_0="$auth" git push --quiet origin HEAD:refs/heads/main; then
+            GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+              GIT_CONFIG_VALUE_0="$auth" git pull --quiet --rebase origin main
+            GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+              GIT_CONFIG_VALUE_0="$auth" git push --quiet origin HEAD:refs/heads/main
+          fi
