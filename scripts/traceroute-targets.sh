@@ -13,7 +13,8 @@
 # neither youtube nor netflix, the cache servers' ids; a group, china or international; a name of
 # 1 to 40 characters without control characters; an AS number from 1 to 4294967295; an ipv4 that
 # is a DNS name or an IPv4 address, and an ipv6, when it is given, that is a DNS name or an IPv6
-# address; default true or false when it is given. Both read the fixtures in
+# address; default true or false when it is given; tcp, on a China target only, with ipv4 and/or
+# ipv6 (when ipv6 is given) from 1 to 65535. Both read the fixtures in
 # tests/fixtures/target-lists/, so that they agree.
 set -eu
 
@@ -41,14 +42,27 @@ def group_rule: . == "china" or . == "international";
 def asn_rule:
     type == "number" and (tojson | whole("[0-9]+")) and . >= 1 and . <= 4294967295;
 def default_rule: . == null or type == "boolean";
+def port_rule:
+    type == "number" and (tojson | whole("[0-9]+")) and . >= 1 and . <= 65535;
+def tcp_rule(group; has_ipv6):
+    if . == null then true
+    elif group != "china" then false
+    elif type != "object" then false
+    elif (keys_unsorted - ["ipv4", "ipv6"] | length) > 0 then false
+    elif .ipv4 == null and .ipv6 == null then false
+    elif .ipv4 != null and (.ipv4 | port_rule | not) then false
+    elif .ipv6 != null and ((has_ipv6 | not) or (.ipv6 | port_rule | not)) then false
+    else true end;
 def target_problems:
+    .group as $group | (.ipv6 != null) as $has_ipv6 |
     [ (if .id | id_rule then empty else "id" end),
       (if .group | group_rule then empty else "group" end),
       (if .name | printable(40) then empty else "name" end),
       (if .asn | asn_rule then empty else "asn" end),
       (if .ipv4 | name_of("ipv4") then empty else "ipv4" end),
       (if .ipv6 == null or (.ipv6 | name_of("ipv6")) then empty else "ipv6" end),
-      (if .default | default_rule then empty else "default" end) ];
+      (if .default | default_rule then empty else "default" end),
+      (if .tcp | tcp_rule($group; $has_ipv6) then empty else "tcp" end) ];
 def list_problems:
     if type != "object" then ["not an object"]
     elif .version != 1 then ["version \(.version) is not 1"]
