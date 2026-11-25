@@ -91,6 +91,16 @@ case_of reject "a name of 41 characters" 'target 1: name' \
 case_of accept "a name of 40 characters" '' "\"name\": \"$(printf '%040d' 0 | tr 0 N)\""
 case_of reject "the id of a cache server" 'target 1: id' '"id": "youtube"'
 case_of reject "a default that is a word" 'target 1: default' '"default": "yes"'
+case_of accept "a TCP IPv4 port on a China target" '' '"tcp": {"ipv4": 443}'
+case_of accept "TCP IPv4 and IPv6 ports when ipv6 is set" '' \
+    '"ipv6": "ipv6.pek-4809.endpoint.nxtrace.org", "tcp": {"ipv4": 443, "ipv6": 8080}'
+case_of reject "a TCP port on an international target" 'target 1: tcp' \
+    '"group": "international", "tcp": {"ipv4": 443}'
+case_of reject "a TCP object without a port" 'target 1: tcp' '"tcp": {}'
+case_of reject "a TCP port of zero" 'target 1: tcp' '"tcp": {"ipv4": 0}'
+case_of reject "a TCP port above 65535" 'target 1: tcp' '"tcp": {"ipv4": 65536}'
+case_of reject "a TCP IPv6 port without an ipv6 name" 'target 1: tcp' '"tcp": {"ipv6": 443}'
+case_of reject "an unknown key in tcp" 'target 1: tcp' '"tcp": {"ipv4": 443, "udp": 53}'
 
 # check reads servers/traceroute.json.
 verdict reject "check without a list" 'no list at servers/traceroute.json' sh "$script" check
