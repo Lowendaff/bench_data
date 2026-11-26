@@ -13,8 +13,12 @@ Companion data and static tool release repository for
     official directory (`ConfigMD5.php` + MD5-verified DES directory) merged with public feeds,
     maintained in an incremental historical pool, and ranked twice daily by concurrent zero-traffic
     `dovalid` liveness probing (`scripts/taier-collect.py`).
+  - `servers/tcping.json`, `servers/tcping-pool.json` & `servers/tcping-seeds.json` — Dual-stack
+    `network.tcping` targets (`china` 31 provinces, `china_premium` `4809`/`9929`/`58807`, and
+    `global` core hubs) with `primary` and `backup` endpoints, refreshed every four hours by TCP,
+    ICMP, and RIPEstat BGP probing (`scripts/tcping-collect.py`).
   - `servers/traceroute.json` — Curated `network.trace` targets across China and international
-    routes.
+    routes (with mainland China ICMP+TCP endpoints refreshed alongside `servers/tcping.json`).
   - `servers/netflix-ix.json` — Netflix internet exchange peering ports (`net_id=457` from
     PeeringDB) used by `network.trace` to annotate IX hops, refreshed twice daily.
 - `scripts/build-*.sh` & `.github/workflows/tools.yml` — Reproducible static Linux (`x86_64` and
@@ -22,8 +26,9 @@ Companion data and static tool release repository for
   `multichase`, `nexttrace`, `passmark-libs`, `smartctl`, `stream`, `sysbench`, `unixbench`),
   published with full source archives, license notices, and `SHA256SUMS` as GitHub releases of this
   repository.
-- `scripts/{iperf3-servers,taier-servers,traceroute-targets,netflix-ix}.sh` & `tests/fixtures/` —
-  Validation and update scripts with edge-case test suites shared with `lowendaff_bench` readers.
+- `scripts/{iperf3-servers,taier-servers,tcping-targets,traceroute-targets,netflix-ix}.sh` &
+  `tests/fixtures/` — Validation and update scripts with edge-case test suites shared with
+  `lowendaff_bench` readers.
 
 ## License
 

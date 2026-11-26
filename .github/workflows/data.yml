@@ -1,7 +1,9 @@
 # Keeps the generated lists in servers/ current: iperf3 servers (servers/iperf3.json), China
-# carrier speed nodes (servers/taier.json), and Netflix IX peering ports (servers/netflix-ix.json).
-# Runs every four hours, manually, or when candidates/scripts change on main. Each source updates
-# independently so a temporary outage of one upstream feed does not block the others.
+# carrier speed nodes (servers/taier.json), dual-stack TCP handshake & China trace targets
+# (servers/tcping.json & servers/traceroute.json), and Netflix IX peering ports
+# (servers/netflix-ix.json). Runs every four hours, manually, or when candidates/scripts change on
+# main. Each source updates independently so a temporary outage of one upstream feed does not block
+# the others.
 name: data
 
 on:
@@ -12,9 +14,13 @@ on:
     branches: [main]
     paths:
       - servers/iperf3-candidates.json
+      - servers/tcping-seeds.json
       - scripts/iperf3-servers.sh
       - scripts/taier-collect.py
       - scripts/taier-servers.sh
+      - scripts/tcping-collect.py
+      - scripts/tcping-targets.sh
+      - scripts/traceroute-targets.sh
       - scripts/netflix-ix.sh
       - scripts/list-rules.jq
       - .github/workflows/data.yml
@@ -87,6 +93,32 @@ jobs:
           else
             echo "::warning::taier-collect.py failed to collect upstream nodes"
           fi
+          cp servers/traceroute.json "$RUNNER_TEMP/traceroute-prev.json"
+          if python3 scripts/tcping-collect.py \
+            --seeds servers/tcping-seeds.json \
+            --taier servers/taier.json \
+            --taier-ipv6 servers/taier-ipv6.json \
+            --pool servers/tcping-pool.json \
+            --out "$RUNNER_TEMP/tcping-new.json" \
+            --traceroute servers/traceroute.json > "$RUNNER_TEMP/tcping-collect.txt"; then
+            if scripts/tcping-targets.sh check-list "$RUNNER_TEMP/tcping-new.json" &&
+              scripts/traceroute-targets.sh check; then
+              cp "$RUNNER_TEMP/tcping-new.json" servers/tcping.json
+              scripts/tcping-targets.sh check
+              {
+                echo "### tcping (\`servers/tcping.json\` & \`servers/traceroute.json\`)"
+                echo
+                sed 's/^/- /' "$RUNNER_TEMP/tcping-collect.txt"
+                echo
+              } >> "$GITHUB_STEP_SUMMARY"
+            else
+              cp "$RUNNER_TEMP/traceroute-prev.json" servers/traceroute.json
+              echo "::warning::tcping-targets.sh or traceroute-targets.sh rejected collected output"
+            fi
+          else
+            cp "$RUNNER_TEMP/traceroute-prev.json" servers/traceroute.json
+            echo "::warning::tcping-collect.py failed to refresh targets"
+          fi
           update_one "netflix-ix" "servers/netflix-ix.json" "scripts/netflix-ix.sh" \
             "https://www.peeringdb.com/api/netixlan?net_id=457" 1048576
       - name: Commit and push updated lists
@@ -98,6 +130,8 @@ jobs:
             servers/iperf3.json
             servers/taier.json
             servers/taier-ipv6.json
+            servers/tcping.json
+            servers/traceroute.json
             servers/netflix-ix.json
           )
           pool_membership_changed=true
@@ -112,18 +146,32 @@ jobs:
               pool_membership_changed=false
             fi
           fi
-          if git diff --quiet -- "${published[@]}" && [ "$pool_membership_changed" = false ]; then
+          tcping_pool_changed=true
+          if [ -f servers/tcping-pool.json ] &&
+            git cat-file -e HEAD:servers/tcping-pool.json 2>/dev/null; then
+            git show HEAD:servers/tcping-pool.json |
+              jq -c '[.entries[] | {slot, family, host, port}] | sort_by(.slot, .family, .host, .port)' \
+              > "$RUNNER_TEMP/tcping-pool-before.json"
+            jq -c '[.entries[] | {slot, family, host, port}] | sort_by(.slot, .family, .host, .port)' \
+              servers/tcping-pool.json > "$RUNNER_TEMP/tcping-pool-after.json"
+            if cmp -s "$RUNNER_TEMP/tcping-pool-before.json" "$RUNNER_TEMP/tcping-pool-after.json"; then
+              tcping_pool_changed=false
+            fi
+          fi
+          if git diff --quiet -- "${published[@]}" &&
+            [ "$pool_membership_changed" = false ] &&
+            [ "$tcping_pool_changed" = false ]; then
             echo "All published server lists and pool endpoints are current."
             printf 'pushed=false\n' >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
           taier_changed=true
-          if git diff --quiet -- servers/taier.json; then
+          if git diff --quiet -- servers/taier.json servers/tcping.json; then
             taier_changed=false
           fi
 
-          git add "${published[@]}" servers/taier-pool.json
+          git add "${published[@]}" servers/taier-pool.json servers/tcping-pool.json
           if git diff --cached --quiet; then
             echo "All generated lists are current."
             printf 'pushed=false\n' >> "$GITHUB_OUTPUT"

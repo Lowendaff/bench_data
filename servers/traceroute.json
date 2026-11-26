@@ -6,7 +6,7 @@
       "group": "china",
       "name": "Beijing Telecom 163",
       "asn": 4134,
-      "ipv4": "ipv4.pek-4134.endpoint.nxtrace.org",
+      "ipv4": "oos-bj2.ctyunapi.cn",
       "ipv6": "ipv6.pek-4134.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
@@ -18,7 +18,7 @@
       "group": "china",
       "name": "Beijing Telecom CN2",
       "asn": 4809,
-      "ipv4": "ipv4.pek-4809.endpoint.nxtrace.org",
+      "ipv4": "219.142.114.9",
       "default": true,
       "tcp": {
         "ipv4": 443
@@ -29,11 +29,11 @@
       "group": "china",
       "name": "Beijing Unicom 169",
       "asn": 4837,
-      "ipv4": "ipv4.pek-4837.endpoint.nxtrace.org",
+      "ipv4": "61.135.214.54",
       "ipv6": "ipv6.pek-4837.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -41,7 +41,7 @@
       "group": "china",
       "name": "Beijing Unicom 9929",
       "asn": 9929,
-      "ipv4": "ipv4.pek-9929.endpoint.nxtrace.org",
+      "ipv4": "218.105.48.1",
       "default": true,
       "tcp": {
         "ipv4": 443
@@ -52,7 +52,7 @@
       "group": "china",
       "name": "Beijing Mobile CMNET",
       "asn": 9808,
-      "ipv4": "ipv4.pek-9808.endpoint.nxtrace.org",
+      "ipv4": "bj-cm-v4.ip.zstaticcdn.com",
       "ipv6": "ipv6.pek-9808.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
@@ -64,10 +64,10 @@
       "group": "china",
       "name": "Beijing Mobile CMIN2",
       "asn": 58807,
-      "ipv4": "ipv4.pek-58807.endpoint.nxtrace.org",
+      "ipv4": "111.11.26.126",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -75,11 +75,11 @@
       "group": "china",
       "name": "Shanghai Telecom 163",
       "asn": 4134,
-      "ipv4": "ipv4.sha-4134.endpoint.nxtrace.org",
+      "ipv4": "124.74.52.254",
       "ipv6": "ipv6.sha-4134.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 22
+        "ipv4": 65499
       }
     },
     {
@@ -98,11 +98,11 @@
       "group": "china",
       "name": "Shanghai Unicom 169",
       "asn": 4837,
-      "ipv4": "ipv4.sha-4837.endpoint.nxtrace.org",
+      "ipv4": "210.51.57.10",
       "ipv6": "ipv6.sha-4837.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -110,7 +110,7 @@
       "group": "china",
       "name": "Shanghai Unicom 9929",
       "asn": 9929,
-      "ipv4": "ipv4.sha-9929.endpoint.nxtrace.org",
+      "ipv4": "210.13.66.238",
       "ipv6": "ipv6.sha-9929.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
@@ -122,7 +122,7 @@
       "group": "china",
       "name": "Shanghai Mobile CMNET",
       "asn": 9808,
-      "ipv4": "ipv4.sha-9808.endpoint.nxtrace.org",
+      "ipv4": "sh-cm-v4.ip.zstaticcdn.com",
       "ipv6": "ipv6.sha-9808.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
@@ -134,10 +134,10 @@
       "group": "china",
       "name": "Shanghai Mobile CMIN2",
       "asn": 58807,
-      "ipv4": "ipv4.sha-58807.endpoint.nxtrace.org",
+      "ipv4": "117.135.123.34",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -168,11 +168,11 @@
       "group": "china",
       "name": "Guangzhou Unicom 169",
       "asn": 4837,
-      "ipv4": "ipv4.can-4837.endpoint.nxtrace.org",
+      "ipv4": "218.107.8.18",
       "ipv6": "ipv6.can-4837.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -183,7 +183,7 @@
       "ipv4": "ipv4.can-9929.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 80
       }
     },
     {
@@ -203,10 +203,10 @@
       "group": "china",
       "name": "Guangzhou Mobile CMIN2",
       "asn": 58807,
-      "ipv4": "ipv4.can-58807.endpoint.nxtrace.org",
+      "ipv4": "183.235.59.38",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {

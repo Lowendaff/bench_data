@@ -130,6 +130,8 @@ check_names() {
         ':(exclude)scripts/iperf3-servers.sh' ':(exclude)scripts/iperf3-servers-cases.sh' \
         ':(exclude)scripts/taier-collect.py' \
         ':(exclude)scripts/taier-servers.sh' ':(exclude)scripts/taier-servers-cases.sh' \
+        ':(exclude)scripts/tcping-collect.py' \
+        ':(exclude)scripts/tcping-targets.sh' ':(exclude)scripts/tcping-targets-cases.sh' \
         ':(exclude)scripts/traceroute-targets.sh' ':(exclude)scripts/traceroute-targets-cases.sh' \
         ':(exclude)scripts/netflix-ix.sh' ':(exclude)scripts/netflix-ix-cases.sh' \
         ':(exclude)scripts/ci-scope.sh' ':(exclude)scripts/ci-scope-cases.sh' \
