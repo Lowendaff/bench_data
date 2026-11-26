@@ -1,0 +1,497 @@
+{
+  "version": 1,
+  "provinces": [
+    {"code": "bj", "region": "Beijing", "city": "Beijing", "default": true},
+    {"code": "sh", "region": "Shanghai", "city": "Shanghai", "default": true},
+    {"code": "gd", "region": "Guangdong", "city": "Guangzhou", "default": true},
+    {"code": "sc", "region": "Sichuan", "city": "Chengdu", "default": true},
+    {"code": "hb", "region": "Hubei", "city": "Wuhan", "default": true},
+    {"code": "tj", "region": "Tianjin", "city": "Tianjin", "default": false},
+    {"code": "cq", "region": "Chongqing", "city": "Chongqing", "default": false},
+    {"code": "he", "region": "Hebei", "city": "Shijiazhuang", "default": false},
+    {"code": "sx", "region": "Shanxi", "city": "Taiyuan", "default": false},
+    {"code": "nm", "region": "Inner Mongolia", "city": "Hohhot", "default": false},
+    {"code": "ln", "region": "Liaoning", "city": "Shenyang", "default": false},
+    {"code": "jl", "region": "Jilin", "city": "Changchun", "default": false},
+    {"code": "hl", "region": "Heilongjiang", "city": "Harbin", "default": false},
+    {"code": "js", "region": "Jiangsu", "city": "Nanjing", "default": false},
+    {"code": "zj", "region": "Zhejiang", "city": "Hangzhou", "default": false},
+    {"code": "ah", "region": "Anhui", "city": "Hefei", "default": false},
+    {"code": "fj", "region": "Fujian", "city": "Fuzhou", "default": false},
+    {"code": "jx", "region": "Jiangxi", "city": "Nanchang", "default": false},
+    {"code": "sd", "region": "Shandong", "city": "Jinan", "default": false},
+    {"code": "ha", "region": "Henan", "city": "Zhengzhou", "default": false},
+    {"code": "hn", "region": "Hunan", "city": "Changsha", "default": false},
+    {"code": "gx", "region": "Guangxi", "city": "Nanning", "default": false},
+    {"code": "hi", "region": "Hainan", "city": "Haikou", "default": false},
+    {"code": "gz", "region": "Guizhou", "city": "Guiyang", "default": false},
+    {"code": "yn", "region": "Yunnan", "city": "Kunming", "default": false},
+    {"code": "xz", "region": "Tibet", "city": "Lhasa", "default": false},
+    {"code": "sn", "region": "Shaanxi", "city": "Xian", "default": false},
+    {"code": "gs", "region": "Gansu", "city": "Lanzhou", "default": false},
+    {"code": "qh", "region": "Qinghai", "city": "Xining", "default": false},
+    {"code": "nx", "region": "Ningxia", "city": "Yinchuan", "default": false},
+    {"code": "xj", "region": "Xinjiang", "city": "Urumqi", "default": false}
+  ],
+  "china_extra_seeds": [
+    {"slot": "cn-bj-ct", "family": "ipv4", "host": "oos-bj2.ctyunapi.cn", "port": 443},
+    {"slot": "cn-bj-ct", "family": "ipv4", "host": "ks3-cn-beijing.ksyuncs.com", "port": 443},
+    {"slot": "cn-bj-cu", "family": "ipv4", "host": "119.250.10.100", "port": 443},
+    {"slot": "cn-bj-cm", "family": "ipv4", "host": "ipv4.pek-9808.endpoint.nxtrace.org", "port": 443},
+    {"slot": "cn-bj-cm", "family": "ipv4", "host": "eos-beijing-1.cmecloud.cn", "port": 443},
+    {"slot": "cn-sh-ct", "family": "ipv4", "host": "oos-sh.ctyunapi.cn", "port": 443},
+    {"slot": "cn-sh-ct", "family": "ipv4", "host": "ipv4.sha-4134.endpoint.nxtrace.org", "port": 22},
+    {"slot": "cn-sh-cu", "family": "ipv4", "host": "153.37.154.66", "port": 443},
+    {"slot": "cn-sh-cm", "family": "ipv4", "host": "eos-shanghai-1.cmecloud.cn", "port": 443},
+    {"slot": "cn-sh-cm", "family": "ipv4", "host": "ipv4.sha-9808.endpoint.nxtrace.org", "port": 80},
+    {"slot": "cn-gd-ct", "family": "ipv4", "host": "ipv4.can-4134.endpoint.nxtrace.org", "port": 443},
+    {"slot": "cn-gd-ct", "family": "ipv4", "host": "oos-gz.ctyunapi.cn", "port": 443},
+    {"slot": "cn-gd-cu", "family": "ipv4", "host": "36.249.75.220", "port": 443},
+    {"slot": "cn-gd-cm", "family": "ipv4", "host": "eos-guangzhou-1.cmecloud.cn", "port": 443}
+  ],
+  "china_premium": [
+    {
+      "id": "cn-bj-cn2-4809",
+      "traceroute_id": "pek-4809",
+      "region": "Beijing",
+      "city": "Beijing",
+      "name": "Beijing Telecom CN2",
+      "operator": "telecom",
+      "asn": 4809,
+      "default": true,
+      "ipv4": [
+        {"host": "219.142.114.9", "port": 443},
+        {"host": "ipv4.pek-4809.endpoint.nxtrace.org", "port": 443}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-bj-cuii-9929",
+      "traceroute_id": "pek-9929",
+      "region": "Beijing",
+      "city": "Beijing",
+      "name": "Beijing Unicom 9929",
+      "operator": "unicom",
+      "asn": 9929,
+      "default": true,
+      "ipv4": [
+        {"host": "ipv4.pek-9929.endpoint.nxtrace.org", "port": 443},
+        {"host": "218.105.48.1", "port": 443}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-bj-cmin2-58807",
+      "traceroute_id": "pek-58807",
+      "region": "Beijing",
+      "city": "Beijing",
+      "name": "Beijing Mobile CMIN2",
+      "operator": "mobile",
+      "asn": 58807,
+      "default": true,
+      "ipv4": [
+        {"host": "111.13.60.33", "port": 65499},
+        {"host": "111.31.13.134", "port": 65499},
+        {"host": "ipv4.pek-58807.endpoint.nxtrace.org", "port": 22}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-sh-cn2-4809",
+      "traceroute_id": "sha-4809",
+      "region": "Shanghai",
+      "city": "Shanghai",
+      "name": "Shanghai Telecom CN2",
+      "operator": "telecom",
+      "asn": 4809,
+      "default": true,
+      "ipv4": [
+        {"host": "ipv4.sha-4809.endpoint.nxtrace.org", "port": 443},
+        {"host": "58.32.4.1", "port": 443}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-sh-cuii-9929",
+      "traceroute_id": "sha-9929",
+      "region": "Shanghai",
+      "city": "Shanghai",
+      "name": "Shanghai Unicom 9929",
+      "operator": "unicom",
+      "asn": 9929,
+      "default": true,
+      "ipv4": [
+        {"host": "ipv4.sha-9929.endpoint.nxtrace.org", "port": 8080},
+        {"host": "210.13.66.238", "port": 8080}
+      ],
+      "ipv6": [
+        {"host": "ipv6.sha-9929.endpoint.nxtrace.org", "port": 8080}
+      ]
+    },
+    {
+      "id": "cn-sh-cmin2-58807",
+      "traceroute_id": "sha-58807",
+      "region": "Shanghai",
+      "city": "Shanghai",
+      "name": "Shanghai Mobile CMIN2",
+      "operator": "mobile",
+      "asn": 58807,
+      "default": true,
+      "ipv4": [
+        {"host": "117.135.123.34", "port": 65499},
+        {"host": "183.207.81.142", "port": 65499},
+        {"host": "ipv4.sha-58807.endpoint.nxtrace.org", "port": 443}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-gd-cn2-4809",
+      "traceroute_id": "can-4809",
+      "region": "Guangdong",
+      "city": "Guangzhou",
+      "name": "Guangzhou Telecom CN2",
+      "operator": "telecom",
+      "asn": 4809,
+      "default": true,
+      "ipv4": [
+        {"host": "ipv4.can-4809.endpoint.nxtrace.org", "port": 443}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-gd-cuii-9929",
+      "traceroute_id": "can-9929",
+      "region": "Guangdong",
+      "city": "Guangzhou",
+      "name": "Guangzhou Unicom 9929",
+      "operator": "unicom",
+      "asn": 9929,
+      "default": true,
+      "ipv4": [
+        {"host": "ipv4.can-9929.endpoint.nxtrace.org", "port": 80}
+      ],
+      "ipv6": []
+    },
+    {
+      "id": "cn-gd-cmin2-58807",
+      "traceroute_id": "can-58807",
+      "region": "Guangdong",
+      "city": "Guangzhou",
+      "name": "Guangzhou Mobile CMIN2",
+      "operator": "mobile",
+      "asn": 58807,
+      "default": true,
+      "ipv4": [
+        {"host": "183.235.59.38", "port": 65499},
+        {"host": "111.12.79.250", "port": 65499},
+        {"host": "ipv4.can-58807.endpoint.nxtrace.org", "port": 443}
+      ],
+      "ipv6": []
+    }
+  ],
+  "global": [
+    {
+      "id": "global-hk-hkg",
+      "region": "Asia-Pacific",
+      "city": "Hong Kong",
+      "name": "Hong Kong",
+      "operator": "other",
+      "asn": 16509,
+      "default": true,
+      "ipv4": [
+        {"host": "s3.ap-east-1.amazonaws.com", "port": 443},
+        {"host": "oss-cn-hongkong.aliyuncs.com", "port": 443},
+        {"host": "cos.ap-hongkong.myqcloud.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "s3.dualstack.ap-east-1.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-tw-tpe",
+      "region": "Asia-Pacific",
+      "city": "Taipei",
+      "name": "Taipei, TW",
+      "operator": "other",
+      "asn": 16509,
+      "default": true,
+      "ipv4": [
+        {"host": "s3.ap-east-2.amazonaws.com", "port": 443},
+        {"host": "ec2.ap-east-2.amazonaws.com", "port": 443},
+        {"host": "free.nchc.org.tw", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "s3.dualstack.ap-east-2.amazonaws.com", "port": 443},
+        {"host": "free.nchc.org.tw", "port": 443}
+      ]
+    },
+    {
+      "id": "global-jp-tyo",
+      "region": "Asia-Pacific",
+      "city": "Tokyo",
+      "name": "Tokyo, JP",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "hnd-jp-ping.vultr.com", "port": 443},
+        {"host": "s3.ap-northeast-1.amazonaws.com", "port": 443},
+        {"host": "oss-ap-northeast-1.aliyuncs.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "hnd-jp-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.ap-northeast-1.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-jp-kix",
+      "region": "Asia-Pacific",
+      "city": "Osaka",
+      "name": "Osaka, JP",
+      "operator": "other",
+      "asn": 16509,
+      "default": false,
+      "ipv4": [
+        {"host": "s3.ap-northeast-3.amazonaws.com", "port": 443},
+        {"host": "jp-osa-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "s3.dualstack.ap-northeast-3.amazonaws.com", "port": 443},
+        {"host": "jp-osa-1.linodeobjects.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-kr-icn",
+      "region": "Asia-Pacific",
+      "city": "Seoul",
+      "name": "Seoul, KR",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "sel-kor-ping.vultr.com", "port": 443},
+        {"host": "s3.ap-northeast-2.amazonaws.com", "port": 443},
+        {"host": "oss-ap-northeast-2.aliyuncs.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "sel-kor-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.ap-northeast-2.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-sg-sin",
+      "region": "Asia-Pacific",
+      "city": "Singapore",
+      "name": "Singapore, SG",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "sgp-ping.vultr.com", "port": 443},
+        {"host": "sin-speed.hetzner.com", "port": 443},
+        {"host": "s3.ap-southeast-1.amazonaws.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "sgp-ping.vultr.com", "port": 443},
+        {"host": "sin-speed.hetzner.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-in-bom",
+      "region": "Asia-Pacific",
+      "city": "Mumbai",
+      "name": "Mumbai, IN",
+      "operator": "other",
+      "asn": 20473,
+      "default": false,
+      "ipv4": [
+        {"host": "bom-in-ping.vultr.com", "port": 443},
+        {"host": "s3.ap-south-1.amazonaws.com", "port": 443},
+        {"host": "in-maa-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "bom-in-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.ap-south-1.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-au-syd",
+      "region": "Asia-Pacific",
+      "city": "Sydney",
+      "name": "Sydney, AU",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "syd-au-ping.vultr.com", "port": 443},
+        {"host": "s3.ap-southeast-2.amazonaws.com", "port": 443},
+        {"host": "au-mel-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "syd-au-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.ap-southeast-2.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-us-lax",
+      "region": "North America",
+      "city": "Los Angeles",
+      "name": "Los Angeles, US",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "lax-ca-us-ping.vultr.com", "port": 443},
+        {"host": "us-lax-1.linodeobjects.com", "port": 443},
+        {"host": "hil-speed.hetzner.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "lax-ca-us-ping.vultr.com", "port": 443},
+        {"host": "us-lax-1.linodeobjects.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-us-sjc",
+      "region": "North America",
+      "city": "San Jose",
+      "name": "San Jose, US",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "sjo-ca-us-ping.vultr.com", "port": 443},
+        {"host": "s3.us-west-1.amazonaws.com", "port": 443},
+        {"host": "oss-us-west-1.aliyuncs.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "sjo-ca-us-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.us-west-1.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-us-sea",
+      "region": "North America",
+      "city": "Seattle",
+      "name": "Seattle, US",
+      "operator": "other",
+      "asn": 20473,
+      "default": false,
+      "ipv4": [
+        {"host": "wa-us-ping.vultr.com", "port": 443},
+        {"host": "us-sea-1.linodeobjects.com", "port": 443},
+        {"host": "s3.us-west-2.amazonaws.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "wa-us-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.us-west-2.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-us-nyc",
+      "region": "North America",
+      "city": "New York",
+      "name": "New York, US",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "nj-us-ping.vultr.com", "port": 443},
+        {"host": "us-east-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "nj-us-ping.vultr.com", "port": 443},
+        {"host": "us-east-1.linodeobjects.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-us-iad",
+      "region": "North America",
+      "city": "Ashburn",
+      "name": "Ashburn, US",
+      "operator": "other",
+      "asn": 24940,
+      "default": true,
+      "ipv4": [
+        {"host": "ash-speed.hetzner.com", "port": 443},
+        {"host": "s3.us-east-1.amazonaws.com", "port": 443},
+        {"host": "us-iad-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "ash-speed.hetzner.com", "port": 443},
+        {"host": "s3.dualstack.us-east-1.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-de-fra",
+      "region": "Europe",
+      "city": "Frankfurt",
+      "name": "Frankfurt, DE",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "fra-de-ping.vultr.com", "port": 443},
+        {"host": "fsn1-speed.hetzner.com", "port": 443},
+        {"host": "s3.eu-central-1.amazonaws.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "fra-de-ping.vultr.com", "port": 443},
+        {"host": "fsn1-speed.hetzner.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-nl-ams",
+      "region": "Europe",
+      "city": "Amsterdam",
+      "name": "Amsterdam, NL",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "ams-nl-ping.vultr.com", "port": 443},
+        {"host": "nl-ams-1.linodeobjects.com", "port": 443},
+        {"host": "s3.nl-ams.scw.cloud", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "ams-nl-ping.vultr.com", "port": 443},
+        {"host": "nl-ams-1.linodeobjects.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-gb-lon",
+      "region": "Europe",
+      "city": "London",
+      "name": "London, GB",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "lon-gb-ping.vultr.com", "port": 443},
+        {"host": "s3.eu-west-2.amazonaws.com", "port": 443},
+        {"host": "gb-lon-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "lon-gb-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.eu-west-2.amazonaws.com", "port": 443}
+      ]
+    },
+    {
+      "id": "global-br-gru",
+      "region": "South America",
+      "city": "Sao Paulo",
+      "name": "Sao Paulo, BR",
+      "operator": "other",
+      "asn": 20473,
+      "default": true,
+      "ipv4": [
+        {"host": "sao-br-ping.vultr.com", "port": 443},
+        {"host": "s3.sa-east-1.amazonaws.com", "port": 443},
+        {"host": "br-gru-1.linodeobjects.com", "port": 443}
+      ],
+      "ipv6": [
+        {"host": "sao-br-ping.vultr.com", "port": 443},
+        {"host": "s3.dualstack.sa-east-1.amazonaws.com", "port": 443}
+      ]
+    }
+  ]
+}

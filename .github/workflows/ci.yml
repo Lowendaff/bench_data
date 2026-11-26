@@ -58,3 +58,7 @@ jobs:
         run: scripts/taier-servers-cases.sh
       - name: Taier list
         run: scripts/taier-servers.sh check
+      - name: TCPing list cases
+        run: scripts/tcping-targets-cases.sh
+      - name: TCPing list
+        run: scripts/tcping-targets.sh check
