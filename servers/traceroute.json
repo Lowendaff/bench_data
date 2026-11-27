@@ -6,11 +6,11 @@
       "group": "china",
       "name": "Beijing Telecom 163",
       "asn": 4134,
-      "ipv4": "oos-bj2.ctyunapi.cn",
+      "ipv4": "219.141.150.166",
       "ipv6": "ipv6.pek-4134.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {
@@ -145,11 +145,11 @@
       "group": "china",
       "name": "Guangzhou Telecom 163",
       "asn": 4134,
-      "ipv4": "ipv4.can-4134.endpoint.nxtrace.org",
+      "ipv4": "61.144.6.18",
       "ipv6": "ipv6.can-4134.endpoint.nxtrace.org",
       "default": true,
       "tcp": {
-        "ipv4": 443
+        "ipv4": 65499
       }
     },
     {

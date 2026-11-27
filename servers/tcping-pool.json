@@ -10,11 +10,11 @@
       "resolved_ip": "111.38.100.105",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 407.57,
+      "rtt_ms": 376.14,
       "failures": 0
     },
     {
@@ -26,11 +26,11 @@
       "resolved_ip": "111.38.192.218",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 688.62,
+      "rtt_ms": 585.26,
       "failures": 0
     },
     {
@@ -42,11 +42,11 @@
       "resolved_ip": "120.210.91.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 401.34,
+      "rtt_ms": 364.9,
       "failures": 0
     },
     {
@@ -55,14 +55,14 @@
       "host": "ah-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "39.145.24.107",
+      "resolved_ip": "39.145.18.51",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 259.69,
+      "rtt_ms": 264.62,
       "failures": 0
     },
     {
@@ -106,11 +106,11 @@
       "resolved_ip": "117.66.191.206",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 245.91,
+      "rtt_ms": 242.0,
       "failures": 0
     },
     {
@@ -122,11 +122,11 @@
       "resolved_ip": "183.162.190.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 249.34,
+      "rtt_ms": 247.72,
       "failures": 0
     },
     {
@@ -138,11 +138,11 @@
       "resolved_ip": "60.168.111.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 276.23,
+      "rtt_ms": 265.82,
       "failures": 0
     },
     {
@@ -154,11 +154,11 @@
       "resolved_ip": "117.68.18.120",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 253.64,
+      "rtt_ms": 243.5,
       "failures": 0
     },
     {
@@ -202,11 +202,11 @@
       "resolved_ip": "112.122.225.106",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 266.33,
+      "rtt_ms": 260.99,
       "failures": 0
     },
     {
@@ -218,11 +218,11 @@
       "resolved_ip": "112.122.56.178",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 255.5,
+      "rtt_ms": 253.69,
       "failures": 0
     },
     {
@@ -234,11 +234,11 @@
       "resolved_ip": "58.242.193.30",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 256.78,
+      "rtt_ms": 264.75,
       "failures": 0
     },
     {
@@ -247,14 +247,14 @@
       "host": "ah-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "112.132.39.253",
+      "resolved_ip": "112.132.39.158",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 254.0,
+      "rtt_ms": 257.35,
       "failures": 0
     },
     {
@@ -298,11 +298,11 @@
       "resolved_ip": "111.13.60.33",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 260.81,
+      "rtt_ms": 256.44,
       "failures": 0
     },
     {
@@ -314,11 +314,11 @@
       "resolved_ip": "211.136.25.153",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 258.74,
+      "rtt_ms": 257.91,
       "failures": 0
     },
     {
@@ -334,7 +334,7 @@
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 256.83,
+      "rtt_ms": 250.49,
       "failures": 0
     },
     {
@@ -346,11 +346,11 @@
       "resolved_ip": "211.136.25.153",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 821.11,
+      "ema_up": 0.8946,
+      "rtt_ms": 682.21,
       "failures": 0
     },
     {
@@ -375,7 +375,7 @@
       "host": "bj-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c04:1007:a008:8000:0:b00:91",
+      "resolved_ip": "2409:8c70:3a08:7:8000:0:b00:34",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -394,11 +394,11 @@
       "resolved_ip": "111.11.26.126",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 251.21,
+      "rtt_ms": 247.91,
       "failures": 0
     },
     {
@@ -410,11 +410,11 @@
       "resolved_ip": "111.13.60.33",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 260.25,
+      "rtt_ms": 255.56,
       "failures": 0
     },
     {
@@ -426,11 +426,11 @@
       "resolved_ip": "111.31.13.134",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
-      "ema_up": 0.8594,
-      "rtt_ms": 240.36,
+      "ema_up": 0.8946,
+      "rtt_ms": 238.92,
       "failures": 0
     },
     {
@@ -442,11 +442,11 @@
       "resolved_ip": "223.72.105.65",
       "tcp_ok": true,
       "tcp_mode": "rst",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
-      "ema_up": 0.8594,
-      "rtt_ms": 828.58,
+      "ema_up": 0.8946,
+      "rtt_ms": 683.92,
       "failures": 0
     },
     {
@@ -458,11 +458,11 @@
       "resolved_ip": "219.142.114.9",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4809,
       "ema_up": 1.0,
-      "rtt_ms": 259.11,
+      "rtt_ms": 249.12,
       "failures": 0
     },
     {
@@ -474,12 +474,12 @@
       "resolved_ip": "219.142.211.23",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4809,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-bj-ct",
@@ -490,11 +490,11 @@
       "resolved_ip": "219.141.150.166",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 267.34,
+      "rtt_ms": 252.81,
       "failures": 0
     },
     {
@@ -510,7 +510,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 263.21,
+      "rtt_ms": 256.18,
       "failures": 0
     },
     {
@@ -519,14 +519,14 @@
       "host": "ks3-cn-beijing.ksyuncs.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "110.43.121.158",
+      "resolved_ip": "110.43.121.116",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 255.66,
+      "rtt_ms": 504.99,
       "failures": 0
     },
     {
@@ -542,7 +542,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 252.25,
+      "rtt_ms": 242.73,
       "failures": 0
     },
     {
@@ -567,7 +567,7 @@
       "host": "bj-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:904:800:1f80::b00:123",
+      "resolved_ip": "240e:908:8106:1:8000:0:b00:35",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -590,7 +590,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 263.82,
+      "rtt_ms": 260.86,
       "failures": 0
     },
     {
@@ -602,11 +602,11 @@
       "resolved_ip": "61.135.214.54",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.05,
+      "rtt_ms": 259.36,
       "failures": 0
     },
     {
@@ -622,7 +622,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 1309.0,
+      "rtt_ms": 1306.35,
       "failures": 0
     },
     {
@@ -666,11 +666,11 @@
       "resolved_ip": "218.105.48.1",
       "tcp_ok": true,
       "tcp_mode": "rst",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9929,
       "ema_up": 1.0,
-      "rtt_ms": 270.73,
+      "rtt_ms": 272.69,
       "failures": 0
     },
     {
@@ -682,12 +682,12 @@
       "resolved_ip": "221.220.51.246",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9929,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-cq-cm",
@@ -698,11 +698,11 @@
       "resolved_ip": "218.201.1.249",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 283.93,
+      "rtt_ms": 272.56,
       "failures": 0
     },
     {
@@ -714,11 +714,11 @@
       "resolved_ip": "218.201.25.131",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 215.18,
+      "ema_up": 0.5781,
+      "rtt_ms": 228.08,
       "failures": 0
     },
     {
@@ -743,7 +743,7 @@
       "host": "cq-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c62:e10:74:8000:0:b00:79",
+      "resolved_ip": "2409:8c0c:310:2401::b00:79",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -762,11 +762,11 @@
       "resolved_ip": "222.181.15.28",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 286.06,
+      "rtt_ms": 276.73,
       "failures": 0
     },
     {
@@ -778,11 +778,11 @@
       "resolved_ip": "219.152.188.41",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 260.65,
+      "rtt_ms": 513.86,
       "failures": 0
     },
     {
@@ -807,7 +807,7 @@
       "host": "cq-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:933:8001:480::b00:97",
+      "resolved_ip": "240e:930:1000::185",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -826,11 +826,11 @@
       "resolved_ip": "113.204.250.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.5,
+      "rtt_ms": 263.66,
       "failures": 0
     },
     {
@@ -842,11 +842,11 @@
       "resolved_ip": "58.144.112.204",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 266.7,
+      "rtt_ms": 269.73,
       "failures": 0
     },
     {
@@ -890,11 +890,11 @@
       "resolved_ip": "112.50.250.58",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 258.59,
+      "rtt_ms": 251.38,
       "failures": 0
     },
     {
@@ -909,8 +909,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 180.92,
+      "ema_up": 0.5781,
+      "rtt_ms": 201.88,
       "failures": 0
     },
     {
@@ -922,11 +922,11 @@
       "resolved_ip": "112.50.254.17",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 403.0,
+      "rtt_ms": 622.93,
       "failures": 0
     },
     {
@@ -938,11 +938,11 @@
       "resolved_ip": "112.48.173.86",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 828.85,
+      "ema_up": 0.8946,
+      "rtt_ms": 686.32,
       "failures": 0
     },
     {
@@ -986,12 +986,12 @@
       "resolved_ip": "120.39.183.250",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": 288.44,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "cn-fj-ct",
@@ -1002,11 +1002,11 @@
       "resolved_ip": "202.101.158.58",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 261.72,
+      "rtt_ms": 254.45,
       "failures": 0
     },
     {
@@ -1018,11 +1018,11 @@
       "resolved_ip": "61.154.8.38",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 256.6,
+      "rtt_ms": 248.81,
       "failures": 0
     },
     {
@@ -1038,7 +1038,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 255.17,
+      "rtt_ms": 501.04,
       "failures": 0
     },
     {
@@ -1080,14 +1080,14 @@
       "port": 65499,
       "source": "taier",
       "resolved_ip": "58.22.104.28",
-      "tcp_ok": true,
-      "tcp_mode": "open",
-      "icmp_ok": false,
+      "tcp_ok": false,
+      "tcp_mode": "down",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 1.0,
+      "ema_up": 0.75,
       "rtt_ms": 253.2,
-      "failures": 0
+      "failures": 1
     },
     {
       "slot": "cn-fj-cu",
@@ -1098,11 +1098,11 @@
       "resolved_ip": "36.250.228.75",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 262.36,
+      "rtt_ms": 527.64,
       "failures": 0
     },
     {
@@ -1146,12 +1146,12 @@
       "resolved_ip": "120.240.20.10",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-gd-cm",
@@ -1162,12 +1162,12 @@
       "resolved_ip": "120.240.20.58",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-gd-cm",
@@ -1178,11 +1178,11 @@
       "resolved_ip": "183.235.59.38",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 282.6,
+      "rtt_ms": 271.35,
       "failures": 0
     },
     {
@@ -1197,8 +1197,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 286.91,
+      "ema_up": 0.6836,
+      "rtt_ms": 277.11,
       "failures": 0
     },
     {
@@ -1214,7 +1214,7 @@
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 437.81,
+      "rtt_ms": 388.19,
       "failures": 0
     },
     {
@@ -1258,11 +1258,11 @@
       "resolved_ip": "111.12.79.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 291.63,
+      "rtt_ms": 277.77,
       "failures": 0
     },
     {
@@ -1274,11 +1274,11 @@
       "resolved_ip": "183.235.59.38",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 285.66,
+      "rtt_ms": 275.37,
       "failures": 0
     },
     {
@@ -1288,14 +1288,14 @@
       "port": 443,
       "source": "seed",
       "resolved_ip": "120.236.114.1",
-      "tcp_ok": true,
-      "tcp_mode": "rst",
-      "icmp_ok": false,
+      "tcp_ok": false,
+      "tcp_mode": "down",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
-      "ema_up": 1.0,
+      "ema_up": 0.75,
       "rtt_ms": 436.85,
-      "failures": 0
+      "failures": 1
     },
     {
       "slot": "cn-gd-cn2-4809",
@@ -1306,12 +1306,12 @@
       "resolved_ip": "116.6.125.25",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4809,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-gd-ct",
@@ -1322,11 +1322,11 @@
       "resolved_ip": "113.108.72.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 268.04,
+      "rtt_ms": 265.5,
       "failures": 0
     },
     {
@@ -1338,11 +1338,11 @@
       "resolved_ip": "61.144.6.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 245.11,
+      "rtt_ms": 235.88,
       "failures": 0
     },
     {
@@ -1358,7 +1358,7 @@
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 242.24,
+      "rtt_ms": 237.42,
       "failures": 0
     },
     {
@@ -1370,11 +1370,11 @@
       "resolved_ip": "14.22.48.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 242.85,
+      "rtt_ms": 239.38,
       "failures": 0
     },
     {
@@ -1391,7 +1391,7 @@
       "bgp_dom": 4134,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-gd-ct",
@@ -1415,7 +1415,7 @@
       "host": "gd-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:97c:39:f80::b00:228",
+      "resolved_ip": "240e:97d:18:2200:8000:0:b00:78",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -1434,11 +1434,11 @@
       "resolved_ip": "112.90.72.190",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 249.22,
+      "rtt_ms": 269.93,
       "failures": 0
     },
     {
@@ -1450,11 +1450,11 @@
       "resolved_ip": "218.107.8.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 261.65,
+      "rtt_ms": 276.57,
       "failures": 0
     },
     {
@@ -1466,11 +1466,11 @@
       "resolved_ip": "36.249.75.220",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 312.11,
+      "rtt_ms": 313.07,
       "failures": 0
     },
     {
@@ -1486,7 +1486,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 265.81,
+      "rtt_ms": 277.49,
       "failures": 0
     },
     {
@@ -1530,11 +1530,11 @@
       "resolved_ip": "58.248.42.9",
       "tcp_ok": true,
       "tcp_mode": "rst",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9929,
       "ema_up": 1.0,
-      "rtt_ms": 674.13,
+      "rtt_ms": 824.65,
       "failures": 0
     },
     {
@@ -1546,11 +1546,11 @@
       "resolved_ip": "111.11.132.78",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 877.06,
+      "ema_up": 0.8946,
+      "rtt_ms": 733.98,
       "failures": 0
     },
     {
@@ -1562,11 +1562,11 @@
       "resolved_ip": "111.11.139.62",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 168.19,
+      "ema_up": 0.5781,
+      "rtt_ms": 198.87,
       "failures": 0
     },
     {
@@ -1578,11 +1578,11 @@
       "resolved_ip": "117.157.96.118",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 274.42,
+      "ema_up": 0.8946,
+      "rtt_ms": 280.87,
       "failures": 0
     },
     {
@@ -1594,11 +1594,11 @@
       "resolved_ip": "117.156.11.228",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 273.86,
+      "ema_up": 0.6836,
+      "rtt_ms": 277.94,
       "failures": 0
     },
     {
@@ -1642,11 +1642,11 @@
       "resolved_ip": "118.181.128.110",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 278.31,
+      "rtt_ms": 273.77,
       "failures": 0
     },
     {
@@ -1658,11 +1658,11 @@
       "resolved_ip": "118.181.131.6",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
-      "rtt_ms": 281.03,
+      "ema_up": 0.8594,
+      "rtt_ms": 272.89,
       "failures": 0
     },
     {
@@ -1674,11 +1674,11 @@
       "resolved_ip": "61.178.53.70",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 264.77,
+      "rtt_ms": 258.49,
       "failures": 0
     },
     {
@@ -1690,11 +1690,11 @@
       "resolved_ip": "113.142.39.64",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 260.92,
+      "rtt_ms": 510.59,
       "failures": 0
     },
     {
@@ -1738,11 +1738,11 @@
       "resolved_ip": "103.240.36.200",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 270.1,
+      "rtt_ms": 272.43,
       "failures": 0
     },
     {
@@ -1754,11 +1754,11 @@
       "resolved_ip": "115.85.229.7",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 273.18,
+      "rtt_ms": 277.45,
       "failures": 0
     },
     {
@@ -1770,11 +1770,11 @@
       "resolved_ip": "60.13.41.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 264.77,
+      "rtt_ms": 270.62,
       "failures": 0
     },
     {
@@ -1786,11 +1786,11 @@
       "resolved_ip": "116.176.34.50",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 276.88,
+      "rtt_ms": 542.77,
       "failures": 0
     },
     {
@@ -1834,11 +1834,11 @@
       "resolved_ip": "111.12.79.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 285.98,
+      "rtt_ms": 274.25,
       "failures": 0
     },
     {
@@ -1850,11 +1850,11 @@
       "resolved_ip": "36.136.125.170",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 197.41,
+      "ema_up": 0.5781,
+      "rtt_ms": 213.6,
       "failures": 0
     },
     {
@@ -1898,11 +1898,11 @@
       "resolved_ip": "113.12.69.218",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 265.21,
+      "rtt_ms": 255.24,
       "failures": 0
     },
     {
@@ -1914,11 +1914,11 @@
       "resolved_ip": "171.111.157.174",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 253.05,
+      "rtt_ms": 250.6,
       "failures": 0
     },
     {
@@ -1966,7 +1966,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 256.83,
+      "rtt_ms": 262.67,
       "failures": 0
     },
     {
@@ -1978,11 +1978,11 @@
       "resolved_ip": "182.90.241.48",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 260.83,
+      "rtt_ms": 269.43,
       "failures": 0
     },
     {
@@ -2007,7 +2007,7 @@
       "host": "gx-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:875c:3000:5:8000:0:b00:226",
+      "resolved_ip": "2408:875c:3000:5:8000:0:b00:225",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2026,11 +2026,11 @@
       "resolved_ip": "211.139.1.6",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 273.53,
+      "rtt_ms": 533.34,
       "failures": 0
     },
     {
@@ -2039,14 +2039,14 @@
       "host": "gz-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "117.177.133.73",
+      "resolved_ip": "223.85.105.158",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 273.24,
+      "rtt_ms": 267.74,
       "failures": 0
     },
     {
@@ -2071,7 +2071,7 @@
       "host": "gz-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c62:e10:74:8000:0:b00:79",
+      "resolved_ip": "2409:8c5c:110:27:8000:0:b00:99",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2094,7 +2094,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 259.25,
+      "rtt_ms": 512.36,
       "failures": 0
     },
     {
@@ -2106,11 +2106,11 @@
       "resolved_ip": "119.0.64.60",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 259.31,
+      "rtt_ms": 503.93,
       "failures": 0
     },
     {
@@ -2154,11 +2154,11 @@
       "resolved_ip": "221.13.22.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 260.56,
+      "rtt_ms": 517.22,
       "failures": 0
     },
     {
@@ -2174,7 +2174,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 260.84,
+      "rtt_ms": 267.31,
       "failures": 0
     },
     {
@@ -2223,7 +2223,7 @@
       "bgp_dom": 9808,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-ha-cm",
@@ -2239,7 +2239,7 @@
       "bgp_dom": 9808,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-ha-cm",
@@ -2250,11 +2250,11 @@
       "resolved_ip": "211.142.193.117",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 256.99,
+      "rtt_ms": 250.34,
       "failures": 0
     },
     {
@@ -2266,11 +2266,11 @@
       "resolved_ip": "111.6.167.130",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 160.73,
+      "ema_up": 0.5781,
+      "rtt_ms": 189.74,
       "failures": 0
     },
     {
@@ -2295,7 +2295,7 @@
       "host": "ha-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c44:3d01:103:8000:0:b00:96",
+      "resolved_ip": "2409:8c44:2:ff16:8000:0:b00:87",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2314,11 +2314,11 @@
       "resolved_ip": "171.8.150.138",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 505.5,
+      "rtt_ms": 432.35,
       "failures": 0
     },
     {
@@ -2330,11 +2330,11 @@
       "resolved_ip": "1.194.160.249",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 263.76,
+      "rtt_ms": 258.24,
       "failures": 0
     },
     {
@@ -2378,11 +2378,11 @@
       "resolved_ip": "123.7.207.253",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 268.36,
+      "rtt_ms": 263.96,
       "failures": 0
     },
     {
@@ -2394,11 +2394,11 @@
       "resolved_ip": "182.120.191.242",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 260.13,
+      "rtt_ms": 258.18,
       "failures": 0
     },
     {
@@ -2410,11 +2410,11 @@
       "resolved_ip": "61.52.252.214",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 254.15,
+      "rtt_ms": 255.34,
       "failures": 0
     },
     {
@@ -2426,11 +2426,11 @@
       "resolved_ip": "221.15.71.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.46,
+      "rtt_ms": 254.13,
       "failures": 0
     },
     {
@@ -2455,7 +2455,7 @@
       "host": "ha-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:8720:806:100:8000:0:b00:223",
+      "resolved_ip": "2408:8752:700:3:8000:0:b00:94",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2474,11 +2474,11 @@
       "resolved_ip": "120.202.250.121",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 258.56,
+      "rtt_ms": 254.7,
       "failures": 0
     },
     {
@@ -2487,14 +2487,14 @@
       "host": "hb-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "111.48.110.102",
+      "resolved_ip": "111.48.110.84",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 256.46,
+      "ema_up": 0.6836,
+      "rtt_ms": 257.86,
       "failures": 0
     },
     {
@@ -2541,8 +2541,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
-      "rtt_ms": 273.43,
+      "ema_up": 0.8594,
+      "rtt_ms": 268.76,
       "failures": 0
     },
     {
@@ -2554,11 +2554,11 @@
       "resolved_ip": "202.103.10.66",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 264.94,
+      "rtt_ms": 259.5,
       "failures": 0
     },
     {
@@ -2574,7 +2574,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 268.41,
+      "rtt_ms": 262.57,
       "failures": 0
     },
     {
@@ -2586,11 +2586,11 @@
       "resolved_ip": "171.43.197.25",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 273.58,
+      "rtt_ms": 267.56,
       "failures": 0
     },
     {
@@ -2615,7 +2615,7 @@
       "host": "hb-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:95c:601:400:8000:0:b00:77",
+      "resolved_ip": "240e:974:ecff:20:8000:0:b00:98",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2634,11 +2634,11 @@
       "resolved_ip": "210.51.215.58",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 251.68,
+      "rtt_ms": 258.32,
       "failures": 0
     },
     {
@@ -2647,14 +2647,14 @@
       "host": "hb-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "220.202.13.197",
+      "resolved_ip": "220.202.13.176",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 254.69,
+      "rtt_ms": 520.03,
       "failures": 0
     },
     {
@@ -2679,7 +2679,7 @@
       "host": "hb-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:874f:a000:1:8000:0:b00:90",
+      "resolved_ip": "2408:877f:30:7:8000:0:b00:223",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -2698,11 +2698,11 @@
       "resolved_ip": "111.11.26.126",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 251.21,
+      "rtt_ms": 247.91,
       "failures": 0
     },
     {
@@ -2714,11 +2714,11 @@
       "resolved_ip": "111.62.113.1",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 267.32,
+      "rtt_ms": 270.04,
       "failures": 0
     },
     {
@@ -2762,11 +2762,11 @@
       "resolved_ip": "222.223.188.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 279.94,
+      "rtt_ms": 267.53,
       "failures": 0
     },
     {
@@ -2782,7 +2782,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 272.39,
+      "rtt_ms": 526.01,
       "failures": 0
     },
     {
@@ -2826,11 +2826,11 @@
       "resolved_ip": "61.240.159.62",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.19,
+      "rtt_ms": 258.05,
       "failures": 0
     },
     {
@@ -2839,14 +2839,14 @@
       "host": "he-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "110.249.198.59",
+      "resolved_ip": "110.249.198.53",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 262.78,
+      "rtt_ms": 266.8,
       "failures": 0
     },
     {
@@ -2890,11 +2890,11 @@
       "resolved_ip": "221.182.128.198",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 289.06,
+      "rtt_ms": 279.03,
       "failures": 0
     },
     {
@@ -2906,11 +2906,11 @@
       "resolved_ip": "111.29.59.149",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 199.49,
+      "ema_up": 0.5781,
+      "rtt_ms": 213.98,
       "failures": 0
     },
     {
@@ -2954,11 +2954,11 @@
       "resolved_ip": "202.100.215.94",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 249.96,
+      "rtt_ms": 242.12,
       "failures": 0
     },
     {
@@ -2970,11 +2970,11 @@
       "resolved_ip": "124.225.43.131",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 248.16,
+      "rtt_ms": 244.98,
       "failures": 0
     },
     {
@@ -3018,11 +3018,11 @@
       "resolved_ip": "113.59.34.113",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 265.33,
+      "rtt_ms": 278.13,
       "failures": 0
     },
     {
@@ -3034,11 +3034,11 @@
       "resolved_ip": "153.0.233.43",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 275.18,
+      "rtt_ms": 527.12,
       "failures": 0
     },
     {
@@ -3082,11 +3082,11 @@
       "resolved_ip": "218.203.2.162",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 178.91,
+      "ema_up": 0.5781,
+      "rtt_ms": 199.71,
       "failures": 0
     },
     {
@@ -3098,11 +3098,11 @@
       "resolved_ip": "218.203.2.166",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 419.08,
+      "rtt_ms": 381.03,
       "failures": 0
     },
     {
@@ -3114,11 +3114,11 @@
       "resolved_ip": "218.203.2.170",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 188.3,
+      "ema_up": 0.5781,
+      "rtt_ms": 209.29,
       "failures": 0
     },
     {
@@ -3127,14 +3127,14 @@
       "host": "hl-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "111.42.192.157",
+      "resolved_ip": "111.32.145.158",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 183.2,
+      "ema_up": 0.5781,
+      "rtt_ms": 204.37,
       "failures": 0
     },
     {
@@ -3159,7 +3159,7 @@
       "host": "hl-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:801a:3006:1a:8000:0:b00:35",
+      "resolved_ip": "2409:8c18:700:300d:8000:0:b00:73",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -3176,14 +3176,14 @@
       "port": 65499,
       "source": "taier",
       "resolved_ip": "112.100.10.234",
-      "tcp_ok": true,
-      "tcp_mode": "open",
-      "icmp_ok": false,
+      "tcp_ok": false,
+      "tcp_mode": "down",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
+      "ema_up": 0.6094,
       "rtt_ms": 288.15,
-      "failures": 0
+      "failures": 1
     },
     {
       "slot": "cn-hl-ct",
@@ -3192,14 +3192,14 @@
       "port": 65499,
       "source": "taier",
       "resolved_ip": "112.100.107.226",
-      "tcp_ok": false,
-      "tcp_mode": "down",
-      "icmp_ok": false,
+      "tcp_ok": true,
+      "tcp_mode": "open",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.5625,
-      "rtt_ms": 298.05,
-      "failures": 2
+      "ema_up": 0.6719,
+      "rtt_ms": 284.67,
+      "failures": 0
     },
     {
       "slot": "cn-hl-ct",
@@ -3210,11 +3210,11 @@
       "resolved_ip": "112.100.116.86",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 275.38,
+      "rtt_ms": 270.62,
       "failures": 0
     },
     {
@@ -3223,14 +3223,14 @@
       "host": "hl-ct-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "42.185.158.176",
+      "resolved_ip": "42.101.49.92",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 271.91,
+      "rtt_ms": 262.19,
       "failures": 0
     },
     {
@@ -3255,7 +3255,7 @@
       "host": "hl-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:908:8106:1:8000:0:b00:34",
+      "resolved_ip": "240e:910:e000:201:8000:0:b00:99",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -3274,11 +3274,11 @@
       "resolved_ip": "1.57.212.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 282.13,
+      "rtt_ms": 287.88,
       "failures": 0
     },
     {
@@ -3290,11 +3290,11 @@
       "resolved_ip": "1.62.182.214",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 288.81,
+      "rtt_ms": 277.92,
       "failures": 0
     },
     {
@@ -3306,11 +3306,11 @@
       "resolved_ip": "122.156.191.50",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 294.15,
+      "rtt_ms": 283.83,
       "failures": 0
     },
     {
@@ -3322,11 +3322,11 @@
       "resolved_ip": "221.207.117.205",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 282.5,
+      "rtt_ms": 284.05,
       "failures": 0
     },
     {
@@ -3373,8 +3373,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 210.49,
+      "ema_up": 0.5781,
+      "rtt_ms": 223.37,
       "failures": 0
     },
     {
@@ -3386,11 +3386,11 @@
       "resolved_ip": "111.8.9.149",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 208.74,
+      "ema_up": 0.5781,
+      "rtt_ms": 222.37,
       "failures": 0
     },
     {
@@ -3402,11 +3402,11 @@
       "resolved_ip": "111.8.9.157",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 834.99,
+      "ema_up": 0.6836,
+      "rtt_ms": 692.36,
       "failures": 0
     },
     {
@@ -3421,8 +3421,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 202.7,
+      "ema_up": 0.5781,
+      "rtt_ms": 219.23,
       "failures": 0
     },
     {
@@ -3466,11 +3466,11 @@
       "resolved_ip": "218.75.128.230",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 260.48,
+      "rtt_ms": 252.31,
       "failures": 0
     },
     {
@@ -3482,11 +3482,11 @@
       "resolved_ip": "218.76.140.70",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 262.91,
+      "rtt_ms": 258.1,
       "failures": 0
     },
     {
@@ -3502,7 +3502,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 253.05,
+      "rtt_ms": 252.59,
       "failures": 0
     },
     {
@@ -3519,7 +3519,7 @@
       "bgp_dom": 4134,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-hn-ct",
@@ -3562,11 +3562,11 @@
       "resolved_ip": "110.52.230.249",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 266.45,
+      "rtt_ms": 272.81,
       "failures": 0
     },
     {
@@ -3578,11 +3578,11 @@
       "resolved_ip": "110.52.92.134",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 275.46,
+      "rtt_ms": 269.52,
       "failures": 0
     },
     {
@@ -3594,11 +3594,11 @@
       "resolved_ip": "110.53.162.203",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 269.62,
+      "rtt_ms": 267.92,
       "failures": 0
     },
     {
@@ -3614,7 +3614,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 259.45,
+      "rtt_ms": 263.54,
       "failures": 0
     },
     {
@@ -3658,11 +3658,11 @@
       "resolved_ip": "111.26.16.139",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 443.94,
+      "rtt_ms": 404.24,
       "failures": 0
     },
     {
@@ -3674,11 +3674,11 @@
       "resolved_ip": "111.26.16.19",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 307.32,
+      "rtt_ms": 303.31,
       "failures": 0
     },
     {
@@ -3690,11 +3690,11 @@
       "resolved_ip": "111.26.16.67",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 294.49,
+      "rtt_ms": 293.93,
       "failures": 0
     },
     {
@@ -3703,14 +3703,14 @@
       "host": "jl-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "111.26.55.239",
+      "resolved_ip": "117.161.81.97",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 853.01,
+      "ema_up": 0.8946,
+      "rtt_ms": 705.08,
       "failures": 0
     },
     {
@@ -3735,7 +3735,7 @@
       "host": "jl-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c18:700:1002:8000:0:b00:226",
+      "resolved_ip": "2409:8c10:c00:88:8000:0:b00:69",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -3754,11 +3754,11 @@
       "resolved_ip": "123.172.239.248",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
-      "rtt_ms": 293.17,
+      "ema_up": 0.8594,
+      "rtt_ms": 278.65,
       "failures": 0
     },
     {
@@ -3770,11 +3770,11 @@
       "resolved_ip": "175.30.87.57",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 273.67,
+      "rtt_ms": 264.78,
       "failures": 0
     },
     {
@@ -3786,11 +3786,11 @@
       "resolved_ip": "219.150.21.93",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 269.39,
+      "rtt_ms": 260.3,
       "failures": 0
     },
     {
@@ -3802,11 +3802,11 @@
       "resolved_ip": "36.104.133.171",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 267.47,
+      "rtt_ms": 260.43,
       "failures": 0
     },
     {
@@ -3850,11 +3850,11 @@
       "resolved_ip": "119.52.142.210",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 274.78,
+      "rtt_ms": 528.94,
       "failures": 0
     },
     {
@@ -3864,14 +3864,14 @@
       "port": 65499,
       "source": "taier",
       "resolved_ip": "119.55.112.202",
-      "tcp_ok": false,
-      "tcp_mode": "down",
-      "icmp_ok": false,
+      "tcp_ok": true,
+      "tcp_mode": "open",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.1875,
-      "rtt_ms": 213.94,
-      "failures": 1
+      "ema_up": 0.3906,
+      "rtt_ms": 221.71,
+      "failures": 0
     },
     {
       "slot": "cn-jl-cu",
@@ -3882,11 +3882,11 @@
       "resolved_ip": "221.9.126.14",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 285.55,
+      "rtt_ms": 280.34,
       "failures": 0
     },
     {
@@ -3895,14 +3895,14 @@
       "host": "jl-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "139.215.225.85",
+      "resolved_ip": "101.28.250.249",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 270.66,
+      "rtt_ms": 269.39,
       "failures": 0
     },
     {
@@ -3927,7 +3927,7 @@
       "host": "jl-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:8734:1:c:8000:0:b00:8",
+      "resolved_ip": "2408:871a:a100:8:8000:0:b00:81",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -3946,11 +3946,11 @@
       "resolved_ip": "112.21.187.90",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 829.91,
+      "ema_up": 0.8946,
+      "rtt_ms": 690.08,
       "failures": 0
     },
     {
@@ -3962,11 +3962,11 @@
       "resolved_ip": "112.4.233.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 262.97,
+      "rtt_ms": 266.29,
       "failures": 0
     },
     {
@@ -3978,11 +3978,11 @@
       "resolved_ip": "183.207.81.142",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 251.97,
+      "rtt_ms": 248.88,
       "failures": 0
     },
     {
@@ -3991,14 +3991,14 @@
       "host": "js-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "36.155.201.84",
+      "resolved_ip": "36.155.213.124",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 151.73,
+      "ema_up": 0.5781,
+      "rtt_ms": 181.13,
       "failures": 0
     },
     {
@@ -4007,7 +4007,7 @@
       "host": "js-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c20:9c71:115:8000:0:b00:77",
+      "resolved_ip": "2409:8c20:6ed1:10d:8000:0:b00:79",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -4026,11 +4026,11 @@
       "resolved_ip": "218.2.122.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 269.29,
+      "rtt_ms": 255.83,
       "failures": 0
     },
     {
@@ -4039,14 +4039,14 @@
       "host": "js-ct-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "117.62.242.159",
+      "resolved_ip": "58.212.179.51",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 253.03,
+      "rtt_ms": 239.23,
       "failures": 0
     },
     {
@@ -4071,7 +4071,7 @@
       "host": "js-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:978:1226:0:8000:0:b00:85",
+      "resolved_ip": "240e:979:9509:180::b00:81",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -4094,7 +4094,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 253.79,
+      "rtt_ms": 263.99,
       "failures": 0
     },
     {
@@ -4106,11 +4106,11 @@
       "resolved_ip": "59.83.208.232",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 270.67,
+      "rtt_ms": 264.6,
       "failures": 0
     },
     {
@@ -4152,14 +4152,14 @@
       "port": 65499,
       "source": "taier",
       "resolved_ip": "117.166.61.2",
-      "tcp_ok": true,
-      "tcp_mode": "open",
-      "icmp_ok": false,
+      "tcp_ok": false,
+      "tcp_mode": "down",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
+      "ema_up": 0.3281,
       "rtt_ms": 170.1,
-      "failures": 0
+      "failures": 1
     },
     {
       "slot": "cn-jx-cm",
@@ -4174,7 +4174,7 @@
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 255.94,
+      "rtt_ms": 259.06,
       "failures": 0
     },
     {
@@ -4186,11 +4186,11 @@
       "resolved_ip": "183.216.16.146",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 170.27,
+      "ema_up": 0.5781,
+      "rtt_ms": 195.09,
       "failures": 0
     },
     {
@@ -4202,11 +4202,11 @@
       "resolved_ip": "117.169.96.226",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 250.25,
+      "rtt_ms": 254.35,
       "failures": 0
     },
     {
@@ -4254,7 +4254,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 260.38,
+      "rtt_ms": 253.01,
       "failures": 0
     },
     {
@@ -4270,7 +4270,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 248.9,
+      "rtt_ms": 510.26,
       "failures": 0
     },
     {
@@ -4282,11 +4282,11 @@
       "resolved_ip": "59.52.20.90",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 252.79,
+      "rtt_ms": 251.38,
       "failures": 0
     },
     {
@@ -4298,11 +4298,11 @@
       "resolved_ip": "117.21.179.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 252.41,
+      "rtt_ms": 247.41,
       "failures": 0
     },
     {
@@ -4346,11 +4346,11 @@
       "resolved_ip": "113.195.247.130",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 267.11,
+      "rtt_ms": 265.46,
       "failures": 0
     },
     {
@@ -4362,11 +4362,11 @@
       "resolved_ip": "118.212.100.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 265.67,
+      "rtt_ms": 266.88,
       "failures": 0
     },
     {
@@ -4382,7 +4382,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 261.59,
+      "rtt_ms": 261.83,
       "failures": 0
     },
     {
@@ -4394,11 +4394,11 @@
       "resolved_ip": "116.153.32.148",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 255.02,
+      "rtt_ms": 256.75,
       "failures": 0
     },
     {
@@ -4442,11 +4442,11 @@
       "resolved_ip": "112.54.3.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 279.42,
+      "ema_up": 0.8946,
+      "rtt_ms": 283.81,
       "failures": 0
     },
     {
@@ -4458,11 +4458,11 @@
       "resolved_ip": "211.137.3.218",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 177.22,
+      "ema_up": 0.5781,
+      "rtt_ms": 206.51,
       "failures": 0
     },
     {
@@ -4474,11 +4474,11 @@
       "resolved_ip": "211.140.211.90",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 273.98,
+      "rtt_ms": 274.49,
       "failures": 0
     },
     {
@@ -4490,11 +4490,11 @@
       "resolved_ip": "36.143.199.207",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 419.48,
+      "rtt_ms": 381.67,
       "failures": 0
     },
     {
@@ -4538,11 +4538,11 @@
       "resolved_ip": "123.187.32.162",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 265.22,
+      "rtt_ms": 257.87,
       "failures": 0
     },
     {
@@ -4554,11 +4554,11 @@
       "resolved_ip": "219.149.59.86",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 268.18,
+      "rtt_ms": 510.88,
       "failures": 0
     },
     {
@@ -4570,11 +4570,11 @@
       "resolved_ip": "59.44.39.110",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 267.18,
+      "rtt_ms": 257.03,
       "failures": 0
     },
     {
@@ -4586,11 +4586,11 @@
       "resolved_ip": "42.202.173.160",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 268.97,
+      "rtt_ms": 269.01,
       "failures": 0
     },
     {
@@ -4634,11 +4634,11 @@
       "resolved_ip": "113.229.96.109",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 276.55,
+      "rtt_ms": 267.63,
       "failures": 0
     },
     {
@@ -4650,11 +4650,11 @@
       "resolved_ip": "116.139.47.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 286.61,
+      "rtt_ms": 275.17,
       "failures": 0
     },
     {
@@ -4666,11 +4666,11 @@
       "resolved_ip": "218.60.58.34",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 264.62,
+      "rtt_ms": 273.88,
       "failures": 0
     },
     {
@@ -4682,11 +4682,11 @@
       "resolved_ip": "42.59.0.145",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 267.77,
+      "rtt_ms": 527.48,
       "failures": 0
     },
     {
@@ -4730,11 +4730,11 @@
       "resolved_ip": "111.56.17.194",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 844.67,
+      "ema_up": 0.6836,
+      "rtt_ms": 703.75,
       "failures": 0
     },
     {
@@ -4749,8 +4749,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 196.44,
+      "ema_up": 0.5781,
+      "rtt_ms": 219.66,
       "failures": 0
     },
     {
@@ -4762,11 +4762,11 @@
       "resolved_ip": "111.56.183.18",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 272.37,
+      "ema_up": 0.6836,
+      "rtt_ms": 274.75,
       "failures": 0
     },
     {
@@ -4778,11 +4778,11 @@
       "resolved_ip": "218.202.107.179",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 404.8,
+      "rtt_ms": 374.88,
       "failures": 0
     },
     {
@@ -4791,7 +4791,7 @@
       "host": "nm-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c10:c00:1b:8000:0:b00:180",
+      "resolved_ip": "2409:8c10:c00:88:8000:0:b00:76",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -4810,11 +4810,11 @@
       "resolved_ip": "123.178.113.38",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 261.41,
+      "rtt_ms": 252.86,
       "failures": 0
     },
     {
@@ -4830,7 +4830,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 262.78,
+      "rtt_ms": 254.68,
       "failures": 0
     },
     {
@@ -4842,11 +4842,11 @@
       "resolved_ip": "123.178.211.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 265.49,
+      "rtt_ms": 260.52,
       "failures": 0
     },
     {
@@ -4856,14 +4856,14 @@
       "port": 443,
       "source": "zstatic",
       "resolved_ip": "219.148.161.68",
-      "tcp_ok": true,
-      "tcp_mode": "open",
-      "icmp_ok": false,
+      "tcp_ok": false,
+      "tcp_mode": "down",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 1.0,
+      "ema_up": 0.75,
       "rtt_ms": 254.74,
-      "failures": 0
+      "failures": 1
     },
     {
       "slot": "cn-nm-ct",
@@ -4890,11 +4890,11 @@
       "resolved_ip": "1.27.109.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 281.68,
+      "rtt_ms": 283.21,
       "failures": 0
     },
     {
@@ -4906,11 +4906,11 @@
       "resolved_ip": "110.17.165.154",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 268.31,
+      "rtt_ms": 534.55,
       "failures": 0
     },
     {
@@ -4922,11 +4922,11 @@
       "resolved_ip": "116.113.69.194",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 272.58,
+      "rtt_ms": 263.0,
       "failures": 0
     },
     {
@@ -4942,7 +4942,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 268.65,
+      "rtt_ms": 283.36,
       "failures": 0
     },
     {
@@ -4970,11 +4970,11 @@
       "resolved_ip": "211.138.62.126",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 269.08,
+      "rtt_ms": 267.23,
       "failures": 0
     },
     {
@@ -4986,11 +4986,11 @@
       "resolved_ip": "111.51.76.214",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 266.09,
+      "ema_up": 0.8946,
+      "rtt_ms": 270.36,
       "failures": 0
     },
     {
@@ -5034,11 +5034,11 @@
       "resolved_ip": "222.75.162.202",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 293.79,
+      "rtt_ms": 280.27,
       "failures": 0
     },
     {
@@ -5050,11 +5050,11 @@
       "resolved_ip": "222.75.44.146",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 261.56,
+      "rtt_ms": 255.89,
       "failures": 0
     },
     {
@@ -5098,11 +5098,11 @@
       "resolved_ip": "42.63.1.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 266.44,
+      "rtt_ms": 265.69,
       "failures": 0
     },
     {
@@ -5114,11 +5114,11 @@
       "resolved_ip": "42.63.59.199",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 276.32,
+      "rtt_ms": 270.36,
       "failures": 0
     },
     {
@@ -5162,11 +5162,11 @@
       "resolved_ip": "111.12.161.182",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 4134,
-      "ema_up": 0.5781,
-      "rtt_ms": 276.09,
+      "ema_up": 0.6836,
+      "rtt_ms": 276.38,
       "failures": 0
     },
     {
@@ -5178,11 +5178,11 @@
       "resolved_ip": "111.12.161.190",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 4134,
-      "ema_up": 0.5781,
-      "rtt_ms": 871.12,
+      "ema_up": 0.6836,
+      "rtt_ms": 722.24,
       "failures": 0
     },
     {
@@ -5194,11 +5194,11 @@
       "resolved_ip": "111.12.209.82",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 275.56,
+      "rtt_ms": 276.37,
       "failures": 0
     },
     {
@@ -5210,11 +5210,11 @@
       "resolved_ip": "111.44.158.47",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 427.92,
+      "rtt_ms": 394.99,
       "failures": 0
     },
     {
@@ -5262,7 +5262,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 284.64,
+      "rtt_ms": 275.04,
       "failures": 0
     },
     {
@@ -5274,11 +5274,11 @@
       "resolved_ip": "202.100.147.42",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 278.4,
+      "rtt_ms": 274.2,
       "failures": 0
     },
     {
@@ -5290,11 +5290,11 @@
       "resolved_ip": "220.167.161.213",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 270.51,
+      "rtt_ms": 269.17,
       "failures": 0
     },
     {
@@ -5306,11 +5306,11 @@
       "resolved_ip": "118.213.159.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 271.79,
+      "rtt_ms": 263.52,
       "failures": 0
     },
     {
@@ -5354,11 +5354,11 @@
       "resolved_ip": "103.251.160.30",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 296.25,
+      "rtt_ms": 297.32,
       "failures": 0
     },
     {
@@ -5370,11 +5370,11 @@
       "resolved_ip": "103.251.161.110",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 272.09,
+      "rtt_ms": 266.14,
       "failures": 0
     },
     {
@@ -5386,11 +5386,11 @@
       "resolved_ip": "221.207.62.186",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 282.49,
+      "rtt_ms": 279.17,
       "failures": 0
     },
     {
@@ -5402,11 +5402,11 @@
       "resolved_ip": "43.242.183.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 271.86,
+      "rtt_ms": 276.74,
       "failures": 0
     },
     {
@@ -5450,11 +5450,11 @@
       "resolved_ip": "218.203.250.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 276.14,
+      "rtt_ms": 267.2,
       "failures": 0
     },
     {
@@ -5463,14 +5463,14 @@
       "host": "sc-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "36.133.60.1",
+      "resolved_ip": "36.133.60.2",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 277.88,
+      "rtt_ms": 276.51,
       "failures": 0
     },
     {
@@ -5495,7 +5495,7 @@
       "host": "sc-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c62:e10:32:8000:0:b00:99",
+      "resolved_ip": "2409:8c5c:110:27:8000:0:b00:98",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -5514,11 +5514,11 @@
       "resolved_ip": "125.68.168.106",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
-      "rtt_ms": 291.03,
+      "ema_up": 0.8594,
+      "rtt_ms": 282.24,
       "failures": 0
     },
     {
@@ -5530,11 +5530,11 @@
       "resolved_ip": "182.151.203.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.8125,
-      "rtt_ms": 300.53,
+      "ema_up": 0.8594,
+      "rtt_ms": 284.88,
       "failures": 0
     },
     {
@@ -5546,11 +5546,11 @@
       "resolved_ip": "118.112.1.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 272.99,
+      "rtt_ms": 269.13,
       "failures": 0
     },
     {
@@ -5575,7 +5575,7 @@
       "host": "sc-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:974:ecff:34:8000:0:b00:8",
+      "resolved_ip": "240e:974:ecff:20:8000:0:b00:96",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -5594,11 +5594,11 @@
       "resolved_ip": "119.6.195.146",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 262.14,
+      "rtt_ms": 271.38,
       "failures": 0
     },
     {
@@ -5610,11 +5610,11 @@
       "resolved_ip": "119.6.217.100",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 265.48,
+      "rtt_ms": 264.48,
       "failures": 0
     },
     {
@@ -5658,11 +5658,11 @@
       "resolved_ip": "111.14.190.122",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8125,
-      "rtt_ms": 291.01,
+      "ema_up": 0.8594,
+      "rtt_ms": 288.02,
       "failures": 0
     },
     {
@@ -5674,11 +5674,11 @@
       "resolved_ip": "120.192.83.146",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 255.13,
+      "rtt_ms": 252.23,
       "failures": 0
     },
     {
@@ -5690,11 +5690,11 @@
       "resolved_ip": "211.137.200.82",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 273.78,
+      "rtt_ms": 269.24,
       "failures": 0
     },
     {
@@ -5703,14 +5703,14 @@
       "host": "sd-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "120.221.173.237",
+      "resolved_ip": "120.221.173.226",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 260.91,
+      "rtt_ms": 265.68,
       "failures": 0
     },
     {
@@ -5754,11 +5754,11 @@
       "resolved_ip": "144.123.147.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 259.79,
+      "rtt_ms": 249.06,
       "failures": 0
     },
     {
@@ -5770,11 +5770,11 @@
       "resolved_ip": "222.175.118.202",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 258.07,
+      "rtt_ms": 252.42,
       "failures": 0
     },
     {
@@ -5789,9 +5789,9 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4134,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": 308.41,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "cn-sd-ct",
@@ -5799,14 +5799,14 @@
       "host": "sd-ct-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "140.249.80.254",
+      "resolved_ip": "140.249.80.219",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 452.43,
+      "rtt_ms": 664.24,
       "failures": 0
     },
     {
@@ -5850,11 +5850,11 @@
       "resolved_ip": "112.253.25.102",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.9,
+      "rtt_ms": 252.65,
       "failures": 0
     },
     {
@@ -5866,11 +5866,11 @@
       "resolved_ip": "119.164.225.30",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 256.19,
+      "rtt_ms": 253.94,
       "failures": 0
     },
     {
@@ -5882,11 +5882,11 @@
       "resolved_ip": "123.129.205.78",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 258.95,
+      "rtt_ms": 259.62,
       "failures": 0
     },
     {
@@ -5895,14 +5895,14 @@
       "host": "sd-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "61.179.132.188",
+      "resolved_ip": "61.179.132.179",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 538.98,
+      "rtt_ms": 723.58,
       "failures": 0
     },
     {
@@ -5927,7 +5927,7 @@
       "host": "sd-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:8719:64:73:8000:0:b00:59",
+      "resolved_ip": "2408:8719:64:73:8000:0:b00:63",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -5946,11 +5946,11 @@
       "resolved_ip": "117.135.123.34",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": false,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 230.9,
+      "rtt_ms": 230.65,
       "failures": 0
     },
     {
@@ -5965,8 +5965,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 141.94,
+      "ema_up": 0.5781,
+      "rtt_ms": 173.13,
       "failures": 0
     },
     {
@@ -5978,12 +5978,12 @@
       "resolved_ip": "120.204.34.85",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-sh-cm",
@@ -5991,14 +5991,14 @@
       "host": "sh-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "117.185.117.117",
+      "resolved_ip": "117.185.117.109",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 632.52,
+      "rtt_ms": 796.91,
       "failures": 0
     },
     {
@@ -6042,11 +6042,11 @@
       "resolved_ip": "117.135.123.34",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 242.33,
+      "rtt_ms": 240.25,
       "failures": 0
     },
     {
@@ -6058,11 +6058,11 @@
       "resolved_ip": "183.207.81.142",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 250.67,
+      "rtt_ms": 249.31,
       "failures": 0
     },
     {
@@ -6074,12 +6074,12 @@
       "resolved_ip": "183.194.134.9",
       "tcp_ok": false,
       "tcp_mode": "down",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 0.0,
       "rtt_ms": null,
-      "failures": 4
+      "failures": 5
     },
     {
       "slot": "cn-sh-cn2-4809",
@@ -6090,11 +6090,11 @@
       "resolved_ip": "58.32.4.1",
       "tcp_ok": true,
       "tcp_mode": "rst",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4809,
       "ema_up": 1.0,
-      "rtt_ms": 268.71,
+      "rtt_ms": 254.89,
       "failures": 0
     },
     {
@@ -6106,11 +6106,11 @@
       "resolved_ip": "58.32.4.1",
       "tcp_ok": true,
       "tcp_mode": "rst",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4809,
       "ema_up": 1.0,
-      "rtt_ms": 260.15,
+      "rtt_ms": 249.13,
       "failures": 0
     },
     {
@@ -6122,11 +6122,11 @@
       "resolved_ip": "124.74.52.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 245.22,
+      "rtt_ms": 234.62,
       "failures": 0
     },
     {
@@ -6142,7 +6142,7 @@
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 246.87,
+      "rtt_ms": 495.01,
       "failures": 0
     },
     {
@@ -6154,11 +6154,11 @@
       "resolved_ip": "101.227.43.242",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 243.56,
+      "rtt_ms": 502.06,
       "failures": 0
     },
     {
@@ -6167,14 +6167,14 @@
       "host": "sh-ct-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "101.226.101.195",
+      "resolved_ip": "101.226.94.50",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 431.41,
+      "rtt_ms": 379.73,
       "failures": 0
     },
     {
@@ -6218,11 +6218,11 @@
       "resolved_ip": "153.37.154.66",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 263.66,
+      "rtt_ms": 276.33,
       "failures": 0
     },
     {
@@ -6234,11 +6234,11 @@
       "resolved_ip": "210.51.57.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 253.39,
+      "rtt_ms": 267.66,
       "failures": 0
     },
     {
@@ -6247,15 +6247,15 @@
       "host": "sh-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "58.246.163.108",
-      "tcp_ok": false,
-      "tcp_mode": "down",
-      "icmp_ok": false,
+      "resolved_ip": "112.64.235.107",
+      "tcp_ok": true,
+      "tcp_mode": "open",
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.75,
-      "rtt_ms": 276.53,
-      "failures": 1
+      "ema_up": 0.8125,
+      "rtt_ms": 272.34,
+      "failures": 0
     },
     {
       "slot": "cn-sh-cu",
@@ -6298,11 +6298,11 @@
       "resolved_ip": "210.13.66.238",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9929,
       "ema_up": 1.0,
-      "rtt_ms": 243.66,
+      "rtt_ms": 241.15,
       "failures": 0
     },
     {
@@ -6314,11 +6314,11 @@
       "resolved_ip": "210.13.66.238",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9929,
       "ema_up": 1.0,
-      "rtt_ms": 247.04,
+      "rtt_ms": 243.74,
       "failures": 0
     },
     {
@@ -6346,11 +6346,11 @@
       "resolved_ip": "120.192.243.190",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 268.95,
+      "rtt_ms": 260.36,
       "failures": 0
     },
     {
@@ -6362,11 +6362,11 @@
       "resolved_ip": "218.200.36.30",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 842.83,
+      "ema_up": 0.6836,
+      "rtt_ms": 966.49,
       "failures": 0
     },
     {
@@ -6410,11 +6410,11 @@
       "resolved_ip": "124.114.230.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 286.15,
+      "rtt_ms": 276.61,
       "failures": 0
     },
     {
@@ -6430,7 +6430,7 @@
       "bgp_ok": false,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 262.7,
+      "rtt_ms": 256.54,
       "failures": 0
     },
     {
@@ -6474,11 +6474,11 @@
       "resolved_ip": "113.200.71.206",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 261.32,
+      "rtt_ms": 261.96,
       "failures": 0
     },
     {
@@ -6494,7 +6494,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 263.92,
+      "rtt_ms": 282.26,
       "failures": 0
     },
     {
@@ -6538,11 +6538,11 @@
       "resolved_ip": "183.203.217.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 258.63,
+      "rtt_ms": 255.88,
       "failures": 0
     },
     {
@@ -6551,14 +6551,14 @@
       "host": "sx-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "183.201.125.187",
+      "resolved_ip": "183.201.125.189",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 178.61,
+      "ema_up": 0.5781,
+      "rtt_ms": 200.9,
       "failures": 0
     },
     {
@@ -6602,11 +6602,11 @@
       "resolved_ip": "1.71.188.242",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 281.67,
+      "rtt_ms": 267.7,
       "failures": 0
     },
     {
@@ -6618,11 +6618,11 @@
       "resolved_ip": "113.24.210.58",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 369.16,
+      "rtt_ms": 334.85,
       "failures": 0
     },
     {
@@ -6647,7 +6647,7 @@
       "host": "sx-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:925:2:400:8000:0:b00:98",
+      "resolved_ip": "240e:925:2:400:8000:0:b00:99",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -6666,11 +6666,11 @@
       "resolved_ip": "221.204.5.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.8125,
-      "rtt_ms": 280.09,
+      "ema_up": 0.8594,
+      "rtt_ms": 274.16,
       "failures": 0
     },
     {
@@ -6679,14 +6679,14 @@
       "host": "sx-cu-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "121.30.176.154",
+      "resolved_ip": "121.30.176.170",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 725.67,
+      "rtt_ms": 627.31,
       "failures": 0
     },
     {
@@ -6730,11 +6730,11 @@
       "resolved_ip": "111.31.13.134",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
-      "ema_up": 0.8594,
-      "rtt_ms": 813.76,
+      "ema_up": 0.8946,
+      "rtt_ms": 668.68,
       "failures": 0
     },
     {
@@ -6749,8 +6749,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 257.8,
+      "ema_up": 0.8946,
+      "rtt_ms": 256.0,
       "failures": 0
     },
     {
@@ -6775,7 +6775,7 @@
       "host": "tj-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c02:11c:38::b00:146",
+      "resolved_ip": "2409:8c0c:310:2401::b00:79",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -6794,11 +6794,11 @@
       "resolved_ip": "219.150.86.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 265.7,
+      "rtt_ms": 252.83,
       "failures": 0
     },
     {
@@ -6810,11 +6810,11 @@
       "resolved_ip": "221.238.15.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 255.3,
+      "rtt_ms": 245.05,
       "failures": 0
     },
     {
@@ -6839,7 +6839,7 @@
       "host": "tj-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:904:800:1f80::b00:137",
+      "resolved_ip": "240e:96c:6000:d80::b00:40",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -6858,11 +6858,11 @@
       "resolved_ip": "61.136.26.162",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 257.72,
+      "rtt_ms": 257.29,
       "failures": 0
     },
     {
@@ -6874,11 +6874,11 @@
       "resolved_ip": "117.8.227.168",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 271.99,
+      "rtt_ms": 271.06,
       "failures": 0
     },
     {
@@ -6922,11 +6922,11 @@
       "resolved_ip": "117.191.14.118",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 58807,
       "ema_up": 1.0,
-      "rtt_ms": 293.06,
+      "rtt_ms": 286.54,
       "failures": 0
     },
     {
@@ -6935,14 +6935,14 @@
       "host": "xj-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "36.189.227.78",
+      "resolved_ip": "36.189.15.245",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 293.7,
+      "ema_up": 0.6836,
+      "rtt_ms": 298.59,
       "failures": 0
     },
     {
@@ -6967,7 +6967,7 @@
       "host": "xj-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c78:100:30:8000:0:b00:99",
+      "resolved_ip": "2409:8c78:100:30:8000:0:b00:96",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -6986,11 +6986,11 @@
       "resolved_ip": "222.83.20.90",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 319.22,
+      "rtt_ms": 307.55,
       "failures": 0
     },
     {
@@ -7002,11 +7002,11 @@
       "resolved_ip": "113.142.211.201",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 257.64,
+      "rtt_ms": 250.92,
       "failures": 0
     },
     {
@@ -7050,11 +7050,11 @@
       "resolved_ip": "60.13.133.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 287.56,
+      "rtt_ms": 292.74,
       "failures": 0
     },
     {
@@ -7066,11 +7066,11 @@
       "resolved_ip": "116.178.236.178",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 300.47,
+      "rtt_ms": 552.36,
       "failures": 0
     },
     {
@@ -7095,7 +7095,7 @@
       "host": "xj-cu-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2408:877a:2000:3:4000:0:b00:227",
+      "resolved_ip": "2408:877a:2000:3:4000:0:b00:228",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -7114,11 +7114,11 @@
       "resolved_ip": "111.11.210.96",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 205.41,
+      "ema_up": 0.5781,
+      "rtt_ms": 228.71,
       "failures": 0
     },
     {
@@ -7130,11 +7130,11 @@
       "resolved_ip": "117.180.217.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 315.98,
+      "ema_up": 0.6836,
+      "rtt_ms": 324.24,
       "failures": 0
     },
     {
@@ -7146,11 +7146,11 @@
       "resolved_ip": "221.179.228.29",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 225.1,
+      "ema_up": 0.5781,
+      "rtt_ms": 251.71,
       "failures": 0
     },
     {
@@ -7159,14 +7159,14 @@
       "host": "xz-cm-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "223.85.105.158",
+      "resolved_ip": "223.85.105.157",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 292.31,
+      "ema_up": 0.8946,
+      "rtt_ms": 286.2,
       "failures": 0
     },
     {
@@ -7191,7 +7191,7 @@
       "host": "xz-cm-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "2409:8c62:e10:32:8000:0:b00:99",
+      "resolved_ip": "2409:8c62:e10:74:8000:0:b00:79",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -7210,11 +7210,11 @@
       "resolved_ip": "124.31.210.30",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 296.57,
+      "rtt_ms": 289.29,
       "failures": 0
     },
     {
@@ -7226,11 +7226,11 @@
       "resolved_ip": "124.31.215.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 301.97,
+      "rtt_ms": 294.03,
       "failures": 0
     },
     {
@@ -7242,11 +7242,11 @@
       "resolved_ip": "124.31.223.116",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 313.25,
+      "rtt_ms": 307.35,
       "failures": 0
     },
     {
@@ -7255,14 +7255,14 @@
       "host": "xz-ct-v4.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "113.62.118.253",
+      "resolved_ip": "125.70.173.151",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 293.01,
+      "rtt_ms": 283.86,
       "failures": 0
     },
     {
@@ -7287,7 +7287,7 @@
       "host": "xz-ct-v6.ip.zstaticcdn.com",
       "port": 443,
       "source": "zstatic",
-      "resolved_ip": "240e:45:d000:3004:8000:0:b00:77",
+      "resolved_ip": "240e:974:ecff:34:8000:0:b00:8",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -7309,8 +7309,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.8125,
-      "rtt_ms": 313.19,
+      "ema_up": 0.8594,
+      "rtt_ms": 321.28,
       "failures": 0
     },
     {
@@ -7322,11 +7322,11 @@
       "resolved_ip": "116.172.244.174",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.8125,
-      "rtt_ms": 326.28,
+      "ema_up": 0.8594,
+      "rtt_ms": 585.86,
       "failures": 0
     },
     {
@@ -7338,11 +7338,11 @@
       "resolved_ip": "116.172.244.182",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
-      "ema_up": 0.8125,
-      "rtt_ms": 316.56,
+      "ema_up": 0.8594,
+      "rtt_ms": 325.8,
       "failures": 0
     },
     {
@@ -7354,11 +7354,11 @@
       "resolved_ip": "116.172.153.99",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 301.2,
+      "rtt_ms": 305.04,
       "failures": 0
     },
     {
@@ -7402,11 +7402,11 @@
       "resolved_ip": "183.224.177.34",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 847.5,
+      "ema_up": 0.6836,
+      "rtt_ms": 705.11,
       "failures": 0
     },
     {
@@ -7418,11 +7418,11 @@
       "resolved_ip": "183.224.193.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 288.98,
+      "ema_up": 0.6836,
+      "rtt_ms": 542.11,
       "failures": 0
     },
     {
@@ -7434,11 +7434,11 @@
       "resolved_ip": "211.139.28.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 283.32,
+      "ema_up": 0.6836,
+      "rtt_ms": 280.32,
       "failures": 0
     },
     {
@@ -7453,8 +7453,8 @@
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.8594,
-      "rtt_ms": 885.18,
+      "ema_up": 0.8946,
+      "rtt_ms": 731.42,
       "failures": 0
     },
     {
@@ -7498,11 +7498,11 @@
       "resolved_ip": "182.246.251.178",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 271.06,
+      "rtt_ms": 266.91,
       "failures": 0
     },
     {
@@ -7514,11 +7514,11 @@
       "resolved_ip": "218.63.127.254",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 270.88,
+      "rtt_ms": 267.12,
       "failures": 0
     },
     {
@@ -7530,11 +7530,11 @@
       "resolved_ip": "61.138.214.74",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 261.88,
+      "rtt_ms": 258.24,
       "failures": 0
     },
     {
@@ -7546,11 +7546,11 @@
       "resolved_ip": "106.60.4.70",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 263.71,
+      "rtt_ms": 258.17,
       "failures": 0
     },
     {
@@ -7598,7 +7598,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 286.48,
+      "rtt_ms": 290.4,
       "failures": 0
     },
     {
@@ -7610,11 +7610,11 @@
       "resolved_ip": "119.62.211.54",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 284.67,
+      "rtt_ms": 288.5,
       "failures": 0
     },
     {
@@ -7626,11 +7626,11 @@
       "resolved_ip": "221.213.40.106",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 270.92,
+      "rtt_ms": 270.85,
       "failures": 0
     },
     {
@@ -7646,7 +7646,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 317.87,
+      "rtt_ms": 316.06,
       "failures": 0
     },
     {
@@ -7690,11 +7690,11 @@
       "resolved_ip": "111.3.160.58",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.5781,
-      "rtt_ms": 252.35,
+      "ema_up": 0.6836,
+      "rtt_ms": 254.31,
       "failures": 0
     },
     {
@@ -7706,11 +7706,11 @@
       "resolved_ip": "111.3.73.102",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 251.02,
+      "rtt_ms": 255.22,
       "failures": 0
     },
     {
@@ -7722,11 +7722,11 @@
       "resolved_ip": "39.172.212.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
       "ema_up": 1.0,
-      "rtt_ms": 257.86,
+      "rtt_ms": 260.59,
       "failures": 0
     },
     {
@@ -7738,11 +7738,11 @@
       "resolved_ip": "112.13.92.194",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 9808,
-      "ema_up": 0.4375,
-      "rtt_ms": 158.15,
+      "ema_up": 0.5781,
+      "rtt_ms": 184.74,
       "failures": 0
     },
     {
@@ -7786,11 +7786,11 @@
       "resolved_ip": "115.231.243.182",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 244.77,
+      "rtt_ms": 238.28,
       "failures": 0
     },
     {
@@ -7802,11 +7802,11 @@
       "resolved_ip": "115.238.139.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 250.53,
+      "rtt_ms": 245.15,
       "failures": 0
     },
     {
@@ -7818,11 +7818,11 @@
       "resolved_ip": "122.224.131.202",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 244.27,
+      "rtt_ms": 241.71,
       "failures": 0
     },
     {
@@ -7834,11 +7834,11 @@
       "resolved_ip": "183.131.147.4",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4134,
       "ema_up": 1.0,
-      "rtt_ms": 235.39,
+      "rtt_ms": 235.28,
       "failures": 0
     },
     {
@@ -7882,11 +7882,11 @@
       "resolved_ip": "101.69.132.130",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 264.41,
+      "rtt_ms": 265.43,
       "failures": 0
     },
     {
@@ -7898,11 +7898,11 @@
       "resolved_ip": "123.157.105.246",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 272.86,
+      "rtt_ms": 274.36,
       "failures": 0
     },
     {
@@ -7918,7 +7918,7 @@
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 260.46,
+      "rtt_ms": 518.18,
       "failures": 0
     },
     {
@@ -7930,11 +7930,11 @@
       "resolved_ip": "60.12.119.66",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": 4837,
       "ema_up": 1.0,
-      "rtt_ms": 254.59,
+      "rtt_ms": 263.68,
       "failures": 0
     },
     {
@@ -7975,14 +7975,14 @@
       "host": "au-mel-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.236.45.214",
+      "resolved_ip": "172.236.52.157",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 233.6,
+      "rtt_ms": 227.51,
       "failures": 0
     },
     {
@@ -7991,14 +7991,14 @@
       "host": "s3.ap-southeast-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.169.197",
+      "resolved_ip": "3.5.165.81",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 219.0,
+      "rtt_ms": 217.58,
       "failures": 0
     },
     {
@@ -8010,11 +8010,11 @@
       "resolved_ip": "108.61.212.117",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 218.37,
+      "rtt_ms": 214.26,
       "failures": 0
     },
     {
@@ -8023,7 +8023,7 @@
       "host": "s3.dualstack.ap-southeast-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:c000:c0::305:a9ff",
+      "resolved_ip": "2406:da60:c000:80::305:a5c5",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8045,9 +8045,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-br-gru",
@@ -8055,14 +8055,14 @@
       "host": "br-gru-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.237.48.137",
+      "resolved_ip": "172.237.48.187",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 172.87,
+      "rtt_ms": 158.65,
       "failures": 0
     },
     {
@@ -8071,14 +8071,14 @@
       "host": "s3.sa-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.234.152",
+      "resolved_ip": "3.5.234.3",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 169.05,
+      "rtt_ms": 154.83,
       "failures": 0
     },
     {
@@ -8090,11 +8090,11 @@
       "resolved_ip": "216.238.98.118",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 167.84,
+      "rtt_ms": 158.72,
       "failures": 0
     },
     {
@@ -8103,7 +8103,7 @@
       "host": "s3.dualstack.sa-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:1f60:e000:80::305:e846",
+      "resolved_ip": "2600:1f60:e000:40::305:e982",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8138,11 +8138,11 @@
       "resolved_ip": "108.61.210.117",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 148.63,
+      "rtt_ms": 136.15,
       "failures": 0
     },
     {
@@ -8154,11 +8154,11 @@
       "resolved_ip": "78.46.170.2",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 160.43,
+      "rtt_ms": 144.15,
       "failures": 0
     },
     {
@@ -8167,14 +8167,14 @@
       "host": "s3.eu-central-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.139.197",
+      "resolved_ip": "52.219.169.193",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 147.29,
+      "rtt_ms": 132.6,
       "failures": 0
     },
     {
@@ -8189,9 +8189,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-de-fra",
@@ -8215,14 +8215,14 @@
       "host": "gb-lon-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.237.102.224",
+      "resolved_ip": "172.236.23.32",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 140.1,
+      "rtt_ms": 121.99,
       "failures": 0
     },
     {
@@ -8234,11 +8234,11 @@
       "resolved_ip": "108.61.196.101",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 137.61,
+      "rtt_ms": 122.4,
       "failures": 0
     },
     {
@@ -8247,14 +8247,14 @@
       "host": "s3.eu-west-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "16.12.17.13",
+      "resolved_ip": "52.95.150.181",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 139.85,
+      "rtt_ms": 123.6,
       "failures": 0
     },
     {
@@ -8269,9 +8269,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-gb-lon",
@@ -8279,7 +8279,7 @@
       "host": "s3.dualstack.eu-west-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2a05:d030:c000:c0::305:f619",
+      "resolved_ip": "2a05:d030:c000:80::305:f453",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8298,11 +8298,11 @@
       "resolved_ip": "43.132.105.206",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 242.81,
+      "rtt_ms": 236.02,
       "failures": 0
     },
     {
@@ -8314,11 +8314,11 @@
       "resolved_ip": "47.79.66.112",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 233.68,
+      "rtt_ms": 224.89,
       "failures": 0
     },
     {
@@ -8327,14 +8327,14 @@
       "host": "s3.ap-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.239.124",
+      "resolved_ip": "3.5.214.250",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 232.88,
+      "rtt_ms": 226.22,
       "failures": 0
     },
     {
@@ -8343,7 +8343,7 @@
       "host": "s3.dualstack.ap-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:e000:40::305:d6b2",
+      "resolved_ip": "2406:da60:e000:c0::305:d7dd",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8362,11 +8362,11 @@
       "resolved_ip": "65.20.66.100",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 289.11,
+      "rtt_ms": 276.97,
       "failures": 0
     },
     {
@@ -8375,14 +8375,14 @@
       "host": "in-maa-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.232.118.93",
+      "resolved_ip": "172.232.118.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 284.67,
+      "rtt_ms": 271.46,
       "failures": 0
     },
     {
@@ -8391,14 +8391,14 @@
       "host": "s3.ap-south-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.211.49",
+      "resolved_ip": "16.12.36.65",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 277.13,
+      "rtt_ms": 258.07,
       "failures": 0
     },
     {
@@ -8413,9 +8413,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-in-bom",
@@ -8423,7 +8423,7 @@
       "host": "s3.dualstack.ap-south-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:a000:c0::305:d566",
+      "resolved_ip": "2406:da60:a000:80::305:d105",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8439,14 +8439,14 @@
       "host": "jp-osa-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.235.218.174",
+      "resolved_ip": "172.233.76.121",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 224.14,
+      "rtt_ms": 206.75,
       "failures": 0
     },
     {
@@ -8455,14 +8455,14 @@
       "host": "s3.ap-northeast-3.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.241.47",
+      "resolved_ip": "3.5.240.103",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 185.01,
+      "rtt_ms": 178.0,
       "failures": 0
     },
     {
@@ -8471,7 +8471,7 @@
       "host": "jp-osa-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2400:8905::f03c:95ff:feae:8cef",
+      "resolved_ip": "2400:8905::f03c:95ff:fe25:c3a1",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8487,7 +8487,7 @@
       "host": "s3.dualstack.ap-northeast-3.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:6000:40::305:f1d6",
+      "resolved_ip": "2406:da60:6000:c0::305:f206",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8506,11 +8506,11 @@
       "resolved_ip": "108.61.201.151",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 177.47,
+      "rtt_ms": 176.12,
       "failures": 0
     },
     {
@@ -8522,11 +8522,11 @@
       "resolved_ip": "47.79.81.66",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 186.21,
+      "rtt_ms": 181.12,
       "failures": 0
     },
     {
@@ -8535,14 +8535,14 @@
       "host": "s3.ap-northeast-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "52.219.150.164",
+      "resolved_ip": "52.219.150.136",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 187.08,
+      "rtt_ms": 177.95,
       "failures": 0
     },
     {
@@ -8557,9 +8557,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-jp-tyo",
@@ -8567,7 +8567,7 @@
       "host": "s3.dualstack.ap-northeast-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:4000:40::305:9bbb",
+      "resolved_ip": "2406:da61:400d::100f:3bf9",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8586,11 +8586,11 @@
       "resolved_ip": "149.129.12.20",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 204.86,
+      "rtt_ms": 200.37,
       "failures": 0
     },
     {
@@ -8599,14 +8599,14 @@
       "host": "s3.ap-northeast-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.187.91",
+      "resolved_ip": "3.5.185.27",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 213.92,
+      "rtt_ms": 204.99,
       "failures": 0
     },
     {
@@ -8618,11 +8618,11 @@
       "resolved_ip": "141.164.34.61",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 224.81,
+      "rtt_ms": 215.47,
       "failures": 0
     },
     {
@@ -8631,7 +8631,7 @@
       "host": "s3.dualstack.ap-northeast-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:2000:40::305:bb6a",
+      "resolved_ip": "2406:da60:2000:80::305:b80e",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8653,9 +8653,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-nl-ams",
@@ -8666,11 +8666,11 @@
       "resolved_ip": "108.61.198.102",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 152.56,
+      "rtt_ms": 138.01,
       "failures": 0
     },
     {
@@ -8679,14 +8679,14 @@
       "host": "nl-ams-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.235.182.80",
+      "resolved_ip": "172.235.167.234",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 146.87,
+      "rtt_ms": 131.11,
       "failures": 0
     },
     {
@@ -8698,11 +8698,11 @@
       "resolved_ip": "51.158.211.1",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 143.85,
+      "rtt_ms": 132.68,
       "failures": 0
     },
     {
@@ -8717,9 +8717,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-nl-ams",
@@ -8727,7 +8727,7 @@
       "host": "nl-ams-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:3c0e::2000:79ff:fe1d:495",
+      "resolved_ip": "2600:3c0e::2000:21ff:feea:c5c6",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8743,14 +8743,14 @@
       "host": "s3.ap-southeast-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "52.219.128.202",
+      "resolved_ip": "3.5.151.71",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 252.32,
+      "rtt_ms": 243.92,
       "failures": 0
     },
     {
@@ -8762,11 +8762,11 @@
       "resolved_ip": "45.32.100.168",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 252.13,
+      "rtt_ms": 250.11,
       "failures": 0
     },
     {
@@ -8778,11 +8778,11 @@
       "resolved_ip": "5.223.7.195",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 255.83,
+      "rtt_ms": 261.19,
       "failures": 0
     },
     {
@@ -8797,9 +8797,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-sg-sin",
@@ -8823,14 +8823,14 @@
       "host": "ec2.ap-east-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "43.213.169.68",
+      "resolved_ip": "43.213.168.148",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 216.99,
+      "rtt_ms": 208.18,
       "failures": 0
     },
     {
@@ -8846,7 +8846,7 @@
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 260.6,
+      "rtt_ms": 278.86,
       "failures": 0
     },
     {
@@ -8855,14 +8855,14 @@
       "host": "s3.ap-east-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "3.5.198.202",
+      "resolved_ip": "3.5.198.155",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 216.46,
+      "rtt_ms": 207.7,
       "failures": 0
     },
     {
@@ -8887,7 +8887,7 @@
       "host": "s3.dualstack.ap-east-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2406:da60:c800:40::305:c542",
+      "resolved_ip": "2406:da60:c800:c0::305:c6cd",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8906,11 +8906,11 @@
       "resolved_ip": "5.161.7.195",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 60.64,
+      "rtt_ms": 46.06,
       "failures": 0
     },
     {
@@ -8919,14 +8919,14 @@
       "host": "s3.us-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "16.15.167.255",
+      "resolved_ip": "16.15.255.145",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 62.49,
+      "rtt_ms": 47.28,
       "failures": 0
     },
     {
@@ -8935,14 +8935,14 @@
       "host": "us-iad-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.234.42.108",
+      "resolved_ip": "172.234.44.8",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 63.19,
+      "rtt_ms": 47.91,
       "failures": 0
     },
     {
@@ -8967,7 +8967,7 @@
       "host": "s3.dualstack.us-east-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:1f60:80c0:1::100f:d40b",
+      "resolved_ip": "2600:1f60:80a0:1::100f:f54b",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -8986,11 +8986,11 @@
       "resolved_ip": "5.78.7.195",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 98.45,
+      "rtt_ms": 89.64,
       "failures": 0
     },
     {
@@ -9002,11 +9002,11 @@
       "resolved_ip": "108.61.219.200",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 80.16,
+      "rtt_ms": 74.5,
       "failures": 0
     },
     {
@@ -9015,14 +9015,14 @@
       "host": "us-lax-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.235.36.26",
+      "resolved_ip": "172.236.227.206",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 86.62,
+      "rtt_ms": 80.86,
       "failures": 0
     },
     {
@@ -9037,9 +9037,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-us-lax",
@@ -9047,7 +9047,7 @@
       "host": "us-lax-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2a01:7e03::2000:e3ff:fe3f:e29a",
+      "resolved_ip": "2a01:7e03::f03c:95ff:fe56:f670",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -9066,11 +9066,11 @@
       "resolved_ip": "108.61.149.182",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 66.14,
+      "rtt_ms": 51.52,
       "failures": 0
     },
     {
@@ -9082,11 +9082,11 @@
       "resolved_ip": "97.107.136.10",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 65.38,
+      "rtt_ms": 50.86,
       "failures": 0
     },
     {
@@ -9101,9 +9101,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-us-nyc",
@@ -9111,7 +9111,7 @@
       "host": "us-east-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:3c03::f03c:95ff:fe41:e188",
+      "resolved_ip": "2600:3c03::f03c:95ff:fe41:24ab",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -9127,14 +9127,14 @@
       "host": "s3.us-west-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "52.218.152.248",
+      "resolved_ip": "52.218.183.64",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 92.95,
+      "rtt_ms": 85.41,
       "failures": 0
     },
     {
@@ -9143,14 +9143,14 @@
       "host": "us-sea-1.linodeobjects.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "172.234.248.78",
+      "resolved_ip": "172.238.39.150",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 90.15,
+      "rtt_ms": 82.36,
       "failures": 0
     },
     {
@@ -9162,11 +9162,11 @@
       "resolved_ip": "108.61.194.105",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 84.45,
+      "rtt_ms": 79.37,
       "failures": 0
     },
     {
@@ -9175,7 +9175,7 @@
       "host": "s3.dualstack.us-west-2.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:1f61:4082::100f:22d9",
+      "resolved_ip": "2600:1f60:4000:20::305:5774",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -9197,9 +9197,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     },
     {
       "slot": "global-us-sjc",
@@ -9210,11 +9210,11 @@
       "resolved_ip": "47.254.114.68",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 94.02,
+      "rtt_ms": 88.75,
       "failures": 0
     },
     {
@@ -9223,14 +9223,14 @@
       "host": "s3.us-west-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "16.15.0.81",
+      "resolved_ip": "16.15.4.14",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 84.52,
+      "rtt_ms": 78.81,
       "failures": 0
     },
     {
@@ -9242,11 +9242,11 @@
       "resolved_ip": "104.156.230.107",
       "tcp_ok": true,
       "tcp_mode": "open",
-      "icmp_ok": false,
+      "icmp_ok": true,
       "bgp_ok": true,
       "bgp_dom": null,
       "ema_up": 1.0,
-      "rtt_ms": 88.0,
+      "rtt_ms": 81.45,
       "failures": 0
     },
     {
@@ -9255,7 +9255,7 @@
       "host": "s3.dualstack.us-west-1.amazonaws.com",
       "port": 443,
       "source": "seed",
-      "resolved_ip": "2600:1f60:c000:80::100f:ed",
+      "resolved_ip": "2600:1f60:c000:80::100f:2d",
       "tcp_ok": true,
       "tcp_mode": "open",
       "icmp_ok": false,
@@ -9277,9 +9277,9 @@
       "icmp_ok": false,
       "bgp_ok": false,
       "bgp_dom": null,
-      "ema_up": 0.5625,
+      "ema_up": 0.4219,
       "rtt_ms": null,
-      "failures": 2
+      "failures": 3
     }
   ],
   "bgp_cache": {
@@ -9318,12 +9318,12 @@
       "dom_cn": 4134,
       "checked_at": 1795724151
     },
-    "101.226.101.0": {
+    "101.226.94.0": {
       "origins": [
         4811
       ],
       "dom_cn": 4134,
-      "checked_at": 1795724145
+      "checked_at": 1795787795
     },
     "101.227.43.0": {
       "origins": [
@@ -9331,6 +9331,13 @@
       ],
       "dom_cn": 4134,
       "checked_at": 1795724143
+    },
+    "101.28.250.0": {
+      "origins": [
+        4837
+      ],
+      "dom_cn": 4837,
+      "checked_at": 1795787795
     },
     "101.69.132.0": {
       "origins": [
@@ -9570,13 +9577,6 @@
       "dom_cn": 9808,
       "checked_at": 1795723623
     },
-    "111.26.55.0": {
-      "origins": [
-        134810
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795723623
-    },
     "111.29.59.0": {
       "origins": [
         9808
@@ -9606,6 +9606,13 @@
       "dom_cn": 58807,
       "checked_at": 1795723590
     },
+    "111.32.145.0": {
+      "origins": [
+        9808
+      ],
+      "dom_cn": 9808,
+      "checked_at": 1795787794
+    },
     "111.38.100.0": {
       "origins": [
         9808
@@ -9619,13 +9626,6 @@
       ],
       "dom_cn": 9808,
       "checked_at": 1795723588
-    },
-    "111.42.192.0": {
-      "origins": [
-        132525
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795723615
     },
     "111.44.158.0": {
       "origins": [
@@ -9816,6 +9816,13 @@
       "dom_cn": 9808,
       "checked_at": 1795723632
     },
+    "112.64.235.0": {
+      "origins": [
+        140979
+      ],
+      "dom_cn": 4837,
+      "checked_at": 1795787795
+    },
     "112.90.72.0": {
       "origins": [
         135061
@@ -9899,13 +9906,6 @@
       ],
       "dom_cn": 4837,
       "checked_at": 1795723615
-    },
-    "113.62.118.0": {
-      "origins": [
-        4134
-      ],
-      "dom_cn": 4134,
-      "checked_at": 1795724155
     },
     "115.231.243.0": {
       "origins": [
@@ -10026,6 +10026,13 @@
       "dom_cn": 9808,
       "checked_at": 1795723607
     },
+    "117.161.81.0": {
+      "origins": [
+        9808
+      ],
+      "dom_cn": 9808,
+      "checked_at": 1795787794
+    },
     "117.166.61.0": {
       "origins": [
         56045
@@ -10039,13 +10046,6 @@
       ],
       "dom_cn": 9808,
       "checked_at": 1795723632
-    },
-    "117.177.133.0": {
-      "origins": [
-        139080
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795723605
     },
     "117.180.217.0": {
       "origins": [
@@ -10074,13 +10074,6 @@
       ],
       "dom_cn": 4134,
       "checked_at": 1795723630
-    },
-    "117.62.242.0": {
-      "origins": [
-        134756
-      ],
-      "dom_cn": 4134,
-      "checked_at": 1795739901
     },
     "117.66.191.0": {
       "origins": [
@@ -10432,12 +10425,12 @@
       "dom_cn": 4134,
       "checked_at": 1795728237
     },
-    "139.215.225.0": {
+    "125.70.173.0": {
       "origins": [
-        4837
+        4134
       ],
-      "dom_cn": 4837,
-      "checked_at": 1795723626
+      "dom_cn": 4134,
+      "checked_at": 1795787796
     },
     "14.22.119.0": {
       "origins": [
@@ -10502,26 +10495,26 @@
       "dom_cn": 4837,
       "checked_at": 1795724144
     },
-    "16.12.17.0": {
+    "16.12.36.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795739903
+      "checked_at": 1795787796
     },
-    "16.15.0.0": {
-      "origins": [
-        16509
-      ],
-      "dom_cn": null,
-      "checked_at": 1795739905
-    },
-    "16.15.167.0": {
+    "16.15.255.0": {
       "origins": [
         14618
       ],
       "dom_cn": null,
-      "checked_at": 1795739903
+      "checked_at": 1795787797
+    },
+    "16.15.4.0": {
+      "origins": [
+        16509
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787797
     },
     "171.111.157.0": {
       "origins": [
@@ -10558,54 +10551,47 @@
       "dom_cn": null,
       "checked_at": 1795739903
     },
-    "172.234.248.0": {
+    "172.233.76.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795739907
+      "checked_at": 1795787796
     },
-    "172.234.42.0": {
+    "172.234.44.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795739903
+      "checked_at": 1795787797
     },
-    "172.235.182.0": {
+    "172.235.167.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795728238
+      "checked_at": 1795787797
     },
-    "172.235.218.0": {
+    "172.236.227.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795739902
+      "checked_at": 1795787797
     },
-    "172.235.36.0": {
+    "172.236.23.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795739904
+      "checked_at": 1795787796
     },
-    "172.236.45.0": {
+    "172.236.52.0": {
       "origins": [
         63949
       ],
       "dom_cn": null,
-      "checked_at": 1795739902
-    },
-    "172.237.102.0": {
-      "origins": [
-        63949
-      ],
-      "dom_cn": null,
-      "checked_at": 1795724165
+      "checked_at": 1795787795
     },
     "172.237.48.0": {
       "origins": [
@@ -10613,6 +10599,13 @@
       ],
       "dom_cn": null,
       "checked_at": 1795724164
+    },
+    "172.238.39.0": {
+      "origins": [
+        63949
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787797
     },
     "175.30.87.0": {
       "origins": [
@@ -11230,13 +11223,6 @@
       "dom_cn": null,
       "checked_at": 1795724170
     },
-    "2406:da60:4000::": {
-      "origins": [
-        16509
-      ],
-      "dom_cn": null,
-      "checked_at": 1795739903
-    },
     "2406:da60:6000::": {
       "origins": [
         16509
@@ -11271,6 +11257,13 @@
       ],
       "dom_cn": null,
       "checked_at": 1795724166
+    },
+    "2406:da61:400d::": {
+      "origins": [
+        16509
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787800
     },
     "2408:8000:8010::": {
       "origins": [
@@ -11433,12 +11426,12 @@
       "dom_cn": 4837,
       "checked_at": 1795723614
     },
-    "2408:8720:806::": {
+    "2408:871a:a100::": {
       "origins": [
         4837
       ],
       "dom_cn": 4837,
-      "checked_at": 1795723609
+      "checked_at": 1795787795
     },
     "2408:8726:17ff::": {
       "origins": [
@@ -11469,13 +11462,6 @@
       "checked_at": 1795723634
     },
     "2408:8734:1100::": {
-      "origins": [
-        4837
-      ],
-      "dom_cn": 4837,
-      "checked_at": 1795723626
-    },
-    "2408:8734:1::": {
       "origins": [
         4837
       ],
@@ -11537,13 +11523,6 @@
       ],
       "dom_cn": 4837,
       "checked_at": 1795723631
-    },
-    "2408:874f:a000::": {
-      "origins": [
-        4837
-      ],
-      "dom_cn": 4837,
-      "checked_at": 1795723612
     },
     "2408:8752:700::": {
       "origins": [
@@ -11713,13 +11692,6 @@
       "dom_cn": 58807,
       "checked_at": 1795723626
     },
-    "2409:801a:3006::": {
-      "origins": [
-        132525
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795723624
-    },
     "2409:801a:8a0::": {
       "origins": [
         132525
@@ -11867,26 +11839,12 @@
       "dom_cn": 58807,
       "checked_at": 1795724155
     },
-    "2409:8c02:11c::": {
-      "origins": [
-        9808
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795724152
-    },
     "2409:8c04:1003::": {
       "origins": [
         24547
       ],
       "dom_cn": 9808,
       "checked_at": 1795723612
-    },
-    "2409:8c04:1007::": {
-      "origins": [
-        24547
-      ],
-      "dom_cn": 9808,
-      "checked_at": 1795723591
     },
     "2409:8c0c:310::": {
       "origins": [
@@ -11916,12 +11874,12 @@
       "dom_cn": 9808,
       "checked_at": 1795724142
     },
-    "2409:8c20:9c71::": {
+    "2409:8c20:6ed1::": {
       "origins": [
         56046
       ],
       "dom_cn": 9808,
-      "checked_at": 1795723627
+      "checked_at": 1795787795
     },
     "2409:8c28:c05::": {
       "origins": [
@@ -11958,12 +11916,12 @@
       "dom_cn": 9808,
       "checked_at": 1795724137
     },
-    "2409:8c44:3d01::": {
+    "2409:8c44:2::": {
       "origins": [
         9808
       ],
       "dom_cn": 9808,
-      "checked_at": 1795723608
+      "checked_at": 1795787794
     },
     "2409:8c44::": {
       "origins": [
@@ -12027,6 +11985,13 @@
       ],
       "dom_cn": 9808,
       "checked_at": 1795724157
+    },
+    "2409:8c70:3a08::": {
+      "origins": [
+        9808
+      ],
+      "dom_cn": 9808,
+      "checked_at": 1795787794
     },
     "2409:8c70:3a10::": {
       "origins": [
@@ -12140,13 +12105,6 @@
       "dom_cn": 4134,
       "checked_at": 1795724155
     },
-    "240e:45:d000::": {
-      "origins": [
-        4134
-      ],
-      "dom_cn": 4134,
-      "checked_at": 1795724156
-    },
     "240e:46:5008::": {
       "origins": [
         4134
@@ -12259,13 +12217,6 @@
       "dom_cn": null,
       "checked_at": 1795723617
     },
-    "240e:904:800::": {
-      "origins": [
-        23724
-      ],
-      "dom_cn": 4134,
-      "checked_at": 1795723592
-    },
     "240e:908:8106::": {
       "origins": [
         137698
@@ -12322,12 +12273,12 @@
       "dom_cn": 4134,
       "checked_at": 1795724150
     },
-    "240e:933:8001::": {
+    "240e:930:1000::": {
       "origins": [
         134420
       ],
       "dom_cn": 4134,
-      "checked_at": 1795723594
+      "checked_at": 1795787794
     },
     "240e:938:a03::": {
       "origins": [
@@ -12371,13 +12322,6 @@
       "dom_cn": 4134,
       "checked_at": 1795723589
     },
-    "240e:95c:601::": {
-      "origins": [
-        58563
-      ],
-      "dom_cn": 4134,
-      "checked_at": 1795723611
-    },
     "240e:960:3601::": {
       "origins": [
         139201
@@ -12392,6 +12336,13 @@
       "dom_cn": 4134,
       "checked_at": 1795724144
     },
+    "240e:96c:6000::": {
+      "origins": [
+        4812
+      ],
+      "dom_cn": 4134,
+      "checked_at": 1795787796
+    },
     "240e:974:ecff::": {
       "origins": [
         38283
@@ -12399,19 +12350,19 @@
       "dom_cn": 4134,
       "checked_at": 1795739902
     },
-    "240e:978:1226::": {
+    "240e:979:9509::": {
       "origins": [
-        4134
+        131325
       ],
       "dom_cn": 4134,
-      "checked_at": 1795723628
+      "checked_at": 1795787795
     },
-    "240e:97c:39::": {
+    "240e:97d:18::": {
       "origins": [
-        58466
+        134763
       ],
       "dom_cn": 4134,
-      "checked_at": 1795723600
+      "checked_at": 1795787794
     },
     "240e:a5:8000::": {
       "origins": [
@@ -12469,12 +12420,19 @@
       "dom_cn": 4134,
       "checked_at": 1795724161
     },
-    "2600:1f60:80c0::": {
+    "2600:1f60:4000::": {
+      "origins": [
+        16509
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787797
+    },
+    "2600:1f60:80a0::": {
       "origins": [
         14618
       ],
       "dom_cn": null,
-      "checked_at": 1795739904
+      "checked_at": 1795787797
     },
     "2600:1f60:c000::": {
       "origins": [
@@ -12489,13 +12447,6 @@
       ],
       "dom_cn": null,
       "checked_at": 1795724164
-    },
-    "2600:1f61:4082::": {
-      "origins": [
-        16509
-      ],
-      "dom_cn": null,
-      "checked_at": 1795739904
     },
     "2600:3c03::": {
       "origins": [
@@ -12546,26 +12497,26 @@
       "dom_cn": null,
       "checked_at": 1795724165
     },
-    "3.5.139.0": {
+    "3.5.151.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795739902
+      "checked_at": 1795787797
     },
-    "3.5.169.0": {
+    "3.5.165.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795724163
+      "checked_at": 1795787795
     },
-    "3.5.187.0": {
+    "3.5.185.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795739905
+      "checked_at": 1795787796
     },
     "3.5.198.0": {
       "origins": [
@@ -12574,12 +12525,12 @@
       "dom_cn": null,
       "checked_at": 1795728239
     },
-    "3.5.211.0": {
+    "3.5.214.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795739902
+      "checked_at": 1795787796
     },
     "3.5.234.0": {
       "origins": [
@@ -12588,19 +12539,12 @@
       "dom_cn": null,
       "checked_at": 1795739902
     },
-    "3.5.239.0": {
+    "3.5.240.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795728238
-    },
-    "3.5.241.0": {
-      "origins": [
-        16509
-      ],
-      "dom_cn": null,
-      "checked_at": 1795724167
+      "checked_at": 1795787796
     },
     "36.104.133.0": {
       "origins": [
@@ -12644,19 +12588,19 @@
       "dom_cn": 9808,
       "checked_at": 1795723632
     },
-    "36.155.201.0": {
+    "36.155.213.0": {
       "origins": [
         56046
       ],
       "dom_cn": 9808,
-      "checked_at": 1795728236
+      "checked_at": 1795787795
     },
-    "36.189.227.0": {
+    "36.189.15.0": {
       "origins": [
         9808
       ],
       "dom_cn": 9808,
-      "checked_at": 1795724154
+      "checked_at": 1795787795
     },
     "36.249.75.0": {
       "origins": [
@@ -12672,12 +12616,12 @@
       "dom_cn": 4837,
       "checked_at": 1795723597
     },
-    "39.145.24.0": {
+    "39.145.18.0": {
       "origins": [
         9808
       ],
       "dom_cn": 9808,
-      "checked_at": 1795739902
+      "checked_at": 1795787794
     },
     "39.172.212.0": {
       "origins": [
@@ -12686,12 +12630,12 @@
       "dom_cn": 9808,
       "checked_at": 1795724160
     },
-    "42.185.158.0": {
+    "42.101.49.0": {
       "origins": [
         137698
       ],
       "dom_cn": 4134,
-      "checked_at": 1795723617
+      "checked_at": 1795787794
     },
     "42.202.173.0": {
       "origins": [
@@ -12735,12 +12679,12 @@
       "dom_cn": null,
       "checked_at": 1795724165
     },
-    "43.213.169.0": {
+    "43.213.168.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795724169
+      "checked_at": 1795787797
     },
     "43.242.183.0": {
       "origins": [
@@ -12805,19 +12749,12 @@
       "dom_cn": null,
       "checked_at": 1795724168
     },
-    "52.218.152.0": {
+    "52.218.183.0": {
       "origins": [
         16509
       ],
       "dom_cn": null,
-      "checked_at": 1795739904
-    },
-    "52.219.128.0": {
-      "origins": [
-        16509
-      ],
-      "dom_cn": null,
-      "checked_at": 1795739903
+      "checked_at": 1795787797
     },
     "52.219.150.0": {
       "origins": [
@@ -12826,12 +12763,33 @@
       "dom_cn": null,
       "checked_at": 1795739903
     },
+    "52.219.169.0": {
+      "origins": [
+        16509
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787796
+    },
+    "52.95.150.0": {
+      "origins": [
+        16509
+      ],
+      "dom_cn": null,
+      "checked_at": 1795787796
+    },
     "58.144.112.0": {
       "origins": [
         4837
       ],
       "dom_cn": 4837,
       "checked_at": 1795723595
+    },
+    "58.212.179.0": {
+      "origins": [
+        134756
+      ],
+      "dom_cn": 4134,
+      "checked_at": 1795787795
     },
     "58.22.104.0": {
       "origins": [
@@ -12853,13 +12811,6 @@
       ],
       "dom_cn": 4837,
       "checked_at": 1795723589
-    },
-    "58.246.163.0": {
-      "origins": [
-        140979
-      ],
-      "dom_cn": 4837,
-      "checked_at": 1795724146
     },
     "58.248.42.0": {
       "origins": [
