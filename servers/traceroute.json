@@ -87,7 +87,7 @@
       "group": "china",
       "name": "Shanghai Telecom CN2",
       "asn": 4809,
-      "ipv4": "ipv4.sha-4809.endpoint.nxtrace.org",
+      "ipv4": "58.32.4.1",
       "default": true,
       "tcp": {
         "ipv4": 443
